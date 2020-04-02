@@ -1,0 +1,9 @@
+digraph "Python GUI.appjar.gui.addLabelEntry"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node475 [label="Python GUI.appjar.gui.add\lLabelEntry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node475 -> Node476 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node476 [label="Python GUI.appjar.gui.\l_entryMaker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ae7af8ce191633f9119bb81c8d1f49960"];
+}

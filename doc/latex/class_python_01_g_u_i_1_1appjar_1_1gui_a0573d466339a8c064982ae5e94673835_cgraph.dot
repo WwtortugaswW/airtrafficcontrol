@@ -1,0 +1,37 @@
+digraph "Python GUI.appjar.gui.link"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1451 [label="Python GUI.appjar.gui.link",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1451 -> Node1452 [color="midnightblue",fontsize="10",style="solid"];
+  Node1452 [label="Python GUI.appjar.gui.setLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#af86a06e9117ead3134bac325d74a57ea"];
+  Node1451 -> Node1453 [color="midnightblue",fontsize="10",style="solid"];
+  Node1453 [label="Python GUI.appjar.gui.getLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#adc9ee7cffc1c1a48a962db9e326a0991"];
+  Node1451 -> Node1454 [color="midnightblue",fontsize="10",style="solid"];
+  Node1454 [label="Python GUI.appjar.gui.\l_parsePos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a1151185c82adc42b922797e38132c2ca",tooltip="FUNCTIONS for labels. "];
+  Node1451 -> Node1455 [color="midnightblue",fontsize="10",style="solid"];
+  Node1455 [label="Python GUI.appjar.gui.\l_linkMaker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a085cc8fa180abe59de069cc4d774ab21"];
+  Node1451 -> Node1456 [color="midnightblue",fontsize="10",style="solid"];
+  Node1456 [label="Python GUI.appjar.gui.\l_configWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a66b018474a855b26826b0580a7c40a9e"];
+  Node1451 -> Node1457 [color="midnightblue",fontsize="10",style="solid"];
+  Node1457 [label="Python GUI.appjar.gui.add\lWebLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aff406851f99c330dd2adadc32a9e50e8"];
+  Node1457 -> Node1458 [color="midnightblue",fontsize="10",style="solid"];
+  Node1458 [label="Python GUI.appjar.gui.\l_buildLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a477393e91d465287155c9743f30c6809"];
+  Node1457 -> Node1459 [color="midnightblue",fontsize="10",style="solid"];
+  Node1459 [label="Python GUI.appjar.gui.\l_positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a994cf4bbd47f434233271d3d8b0eb4c6"];
+  Node1451 -> Node1460 [color="midnightblue",fontsize="10",style="solid"];
+  Node1460 [label="Python GUI.appjar.gui.addLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a2ac0d91bddfc0624e49c17f45064993b"];
+  Node1460 -> Node1458 [color="midnightblue",fontsize="10",style="solid"];
+  Node1460 -> Node1461 [color="midnightblue",fontsize="10",style="solid"];
+  Node1461 [label="Python GUI.appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a1d2c0d0a475441a8f9208204ef3227a6",tooltip="FUNCTION for managing commands. "];
+  Node1460 -> Node1459 [color="midnightblue",fontsize="10",style="solid"];
+  Node1451 -> Node1462 [color="midnightblue",fontsize="10",style="solid"];
+  Node1462 [label="Python GUI.appjar.gui.\l_importWebBrowser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a9545f6774fa2937a8b18e8a7f6a77ae1"];
+  Node1451 -> Node1463 [color="midnightblue",fontsize="10",style="solid"];
+  Node1463 [label="Python GUI.appjar.gui.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#af22f729601dae6a052666888083813af"];
+  Node1451 -> Node1464 [color="midnightblue",fontsize="10",style="solid"];
+  Node1464 [label="Python GUI.appjar.gui.get\lContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa89c83e95e3952f6cc39fc23dffa15ce"];
+  Node1451 -> Node1465 [color="midnightblue",fontsize="10",style="solid"];
+  Node1465 [label="Python GUI.appjar.gui.\l_getContainerBg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a7ca2e28f0ccf3c5e00ca64676c496afd"];
+}

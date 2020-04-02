@@ -1,0 +1,48 @@
+digraph "Python GUI.appjar.gui.loadSettings"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1519 [label="Python GUI.appjar.gui.load\lSettings",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1519 -> Node1520 [color="midnightblue",fontsize="10",style="solid"];
+  Node1520 [label="Python GUI.appjar.gui.\l_loadConfigParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a18c798c89fa1d417d9d6c99ae51d7c80"];
+  Node1519 -> Node1521 [color="midnightblue",fontsize="10",style="solid"];
+  Node1521 [label="Python GUI.appjar.gui.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#af22f729601dae6a052666888083813af"];
+  Node1519 -> Node1522 [color="midnightblue",fontsize="10",style="solid"];
+  Node1522 [label="Python GUI.appjar.gui.setSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#afa752d5dda3f11949d4728c734e578ad",tooltip="FUNCTIONS for configuring GUI settings. "];
+  Node1522 -> Node1523 [color="midnightblue",fontsize="10",style="solid"];
+  Node1523 [label="Python GUI.appjar.gui.\l_getTopLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a931a365190d4c36c4de0d6e37d54bb8d"];
+  Node1522 -> Node1524 [color="midnightblue",fontsize="10",style="solid"];
+  Node1524 [label="Python GUI.appjar.gui.set\lFullscreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ac2ffec41bdcd600a38e93bafdc369e55"];
+  Node1524 -> Node1523 [color="midnightblue",fontsize="10",style="solid"];
+  Node1524 -> Node1525 [color="midnightblue",fontsize="10",style="solid"];
+  Node1525 [label="Python GUI.appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a1d2c0d0a475441a8f9208204ef3227a6",tooltip="FUNCTION for managing commands. "];
+  Node1524 -> Node1526 [color="midnightblue",fontsize="10",style="solid"];
+  Node1526 [label="Python GUI.appjar.gui.exit\lFullscreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a86eac6e52f61172ae977d450c4048733"];
+  Node1526 -> Node1523 [color="midnightblue",fontsize="10",style="solid"];
+  Node1526 -> Node1527 [color="midnightblue",fontsize="10",style="solid"];
+  Node1527 [label="Python GUI.appjar.gui.\l_doTitleBar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aeb54c22e1ddb1a8e831d3131d6709d11"];
+  Node1524 -> Node1524 [color="midnightblue",fontsize="10",style="solid"];
+  Node1522 -> Node1528 [color="midnightblue",fontsize="10",style="solid"];
+  Node1528 [label="Python GUI.appjar.gui.trace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a3e03bea05351523162ba28f136f1523c"];
+  Node1522 -> Node1529 [color="midnightblue",fontsize="10",style="solid"];
+  Node1529 [label="Python GUI.appjar.gui.set\lMinSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ae14addd3d536efda511bd8a7be7be2cd"];
+  Node1522 -> Node1526 [color="midnightblue",fontsize="10",style="solid"];
+  Node1519 -> Node1530 [color="midnightblue",fontsize="10",style="solid"];
+  Node1530 [label="Python GUI.appjar.gui.set\lLocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a4fe68815735538ab1c8a9842660bf0a4"];
+  Node1530 -> Node1523 [color="midnightblue",fontsize="10",style="solid"];
+  Node1519 -> Node1524 [color="midnightblue",fontsize="10",style="solid"];
+  Node1519 -> Node1526 [color="midnightblue",fontsize="10",style="solid"];
+  Node1519 -> Node1523 [color="midnightblue",fontsize="10",style="solid"];
+  Node1519 -> Node1531 [color="midnightblue",fontsize="10",style="solid"];
+  Node1531 [label="Python GUI.appjar.gui.get\lToggleFrameState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a4da3456b9cf56e925d637e1dff484bee"];
+  Node1519 -> Node1532 [color="midnightblue",fontsize="10",style="solid"];
+  Node1532 [label="Python GUI.appjar.gui.toggle\lToggleFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a47829880ccccd91e47ec5d65c73dab70"];
+  Node1519 -> Node1533 [color="midnightblue",fontsize="10",style="solid"];
+  Node1533 [label="Python GUI.appjar.gui.set\lTabbedFrameSelectedTab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aefa6b23a471da8f716037346166baa8a"];
+  Node1519 -> Node1534 [color="midnightblue",fontsize="10",style="solid"];
+  Node1534 [label="Python GUI.appjar.gui.set\lPagedWindowPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a881fdbba323f9d8b069fbe9161c3f5ac"];
+  Node1519 -> Node1535 [color="midnightblue",fontsize="10",style="solid"];
+  Node1535 [label="Python GUI.appjar.gui.set\lSubWindowLocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aabeed24815e953d496f02a75eed25e3a"];
+  Node1519 -> Node1529 [color="midnightblue",fontsize="10",style="solid"];
+}

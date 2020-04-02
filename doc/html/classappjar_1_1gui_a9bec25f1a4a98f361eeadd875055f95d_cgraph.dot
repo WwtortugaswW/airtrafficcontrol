@@ -1,0 +1,21 @@
+digraph "appjar.gui.addTree"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node763 [label="appjar.gui.addTree",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node763 -> Node764 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node764 [label="appjar.gui._importAjtree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a3cfa31a9ba600bfebd2fd2916fea349a"];
+  Node763 -> Node765 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node765 [label="appjar.gui.warn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a3ab0139430263b1913b4078cf34e7098"];
+  Node763 -> Node766 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node766 [label="appjar.gui._buildTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a5ed59d49db9ac36d8f446f787d884cd8"];
+  Node763 -> Node767 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node767 [label="appjar.gui.getContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2e8ea27bae5f6758257be218c8279b56"];
+  Node763 -> Node768 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node768 [label="appjar.gui._positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a073b1298767aeb92dd77b77cb6000e8c"];
+  Node763 -> Node769 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node769 [label="appjar.gui._loadTooltip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a20606522644e8b45150bba9513462350"];
+  Node763 -> Node770 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node770 [label="appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a42aaf376a6c07c842b1b498948a9691a",tooltip="FUNCTION for managing commands. "];
+}

@@ -1,0 +1,25 @@
+digraph "Python GUI.appjar.gui.plot"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1729 [label="Python GUI.appjar.gui.plot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1729 -> Node1730 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1730 [label="Python GUI.appjar.gui.updatePlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a337f789d7be5ad84ce634e4b281153a3"];
+  Node1729 -> Node1731 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1731 [label="Python GUI.appjar.gui.\l_parsePos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a1151185c82adc42b922797e38132c2ca",tooltip="FUNCTIONS for labels. "];
+  Node1729 -> Node1732 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1732 [label="Python GUI.appjar.gui.addPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a9924b1bebbcac84a4e19f1969bf81032"];
+  Node1732 -> Node1733 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1733 [label="Python GUI.appjar.gui.\l_addPlotFig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a0ab30a39a8eff86fffca6fba4a6d2e31"];
+  Node1732 -> Node1734 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1734 [label="Python GUI.appjar.gui.\l_loadMatplotlib",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a6c1885e75f5dfd792b1225f0a75fd427"];
+  Node1732 -> Node1735 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1735 [label="Python GUI.appjar.gui.get\lContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa89c83e95e3952f6cc39fc23dffa15ce"];
+  Node1732 -> Node1736 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1736 [label="Python GUI.appjar.gui.\l_positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a994cf4bbd47f434233271d3d8b0eb4c6"];
+  Node1732 -> Node1737 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1737 [label="Python GUI.appjar.gui.refreshPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a64e23c322ea14c543c6bb0ae8f07543f"];
+  Node1729 -> Node1738 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1738 [label="Python GUI.appjar.gui.add\lPlotFig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ac280f5d029379c38398f87cb0aa47d97"];
+}

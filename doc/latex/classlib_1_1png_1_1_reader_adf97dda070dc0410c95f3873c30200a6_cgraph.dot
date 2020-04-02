@@ -1,0 +1,42 @@
+digraph "lib.png.Reader.asDirect"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="lib.png.Reader.asDirect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="lib.png.Reader.preamble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a9633656b8407495c98265f78ef92ad10"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="lib.png.Reader.validate\l_signature",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a7b26c3bd2f93d45ee288aee22b4ecfff"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="lib.png.Reader.read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#abee96e12fc05a9024ebf916b1b90ac44"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="lib.png.Reader.chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#ab9802ec7e407d1ea9e5f69b9a0af1ed0"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="lib.png.Reader.chunklentype",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a6cf6dd680cba262114a176e79bfc8637"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="lib.png.Reader.deinterlace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a19ec9a186e3fdf3a57601b3450ee0f5e"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="lib.png.Reader.undo\l_filter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#af232a3eecd4d1644beba2d144feb76c7"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="lib.png.Reader.serialtoflat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a95f04a6a71588837a20247ce4a34423f"];
+  Node4 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="lib.png.Reader.iterboxed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a5e9f2064e8d50af178d6e8d5aea74b47"];
+  Node4 -> Node11 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="lib.png.Reader.iterstraight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a46a25b00de431ed820a6624870aaff90"];
+  Node11 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="lib.png.Reader.palette",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a68fbc2d1cdf23f0844ab0b40fe4f0803"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="lib.png.Reader.process\l_chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1_reader.html#a26bf1df6ac7fca542b8dc0d035009ce8"];
+  Node13 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="lib.png._readable.read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classlib_1_1png_1_1__readable.html#a6d4f58bafe3d9819511138542a7e72d2"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+}

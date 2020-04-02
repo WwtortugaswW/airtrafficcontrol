@@ -1,0 +1,24 @@
+digraph "appjar.gui.setStopFunction"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1909 [label="appjar.gui.setStopFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1909 -> Node1910 [color="midnightblue",fontsize="10",style="solid"];
+  Node1910 [label="appjar.gui._getTopLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a175eb1f92e48591eb8767f244ebcdd20"];
+  Node1909 -> Node1911 [color="midnightblue",fontsize="10",style="solid"];
+  Node1911 [label="appjar.gui._getContainer\lProperty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#aa5d65e2282cfbe0a4b963b369e7d4e51"];
+  Node1909 -> Node1912 [color="midnightblue",fontsize="10",style="solid"];
+  Node1912 [label="appjar.gui.stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a28ff5fbc0aa77aacf692082a00af676b"];
+  Node1912 -> Node1910 [color="midnightblue",fontsize="10",style="solid"];
+  Node1912 -> Node1913 [color="midnightblue",fontsize="10",style="solid"];
+  Node1913 [label="appjar.gui.saveSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a8c51df5e4d92a65cb11aaccb79674833"];
+  Node1913 -> Node1914 [color="midnightblue",fontsize="10",style="solid"];
+  Node1914 [label="appjar.gui._loadConfigParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a362d67d86fa2592c16203952dcf04ec9"];
+  Node1913 -> Node1915 [color="midnightblue",fontsize="10",style="solid"];
+  Node1915 [label="appjar.gui.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ac310868eecf500d1570400b396793b87"];
+  Node1912 -> Node1916 [color="midnightblue",fontsize="10",style="solid"];
+  Node1916 [label="appjar.gui.after_cancel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a9868fb4807bcf042789c84d29ab47d0f"];
+  Node1912 -> Node1917 [color="midnightblue",fontsize="10",style="solid"];
+  Node1917 [label="appjar.gui.stopSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a64a997936b13e87595df43d1f12086b9"];
+}

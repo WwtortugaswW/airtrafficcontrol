@@ -1,0 +1,48 @@
+digraph "Python GUI.lib.png.Reader.asRGB8"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node45 [label="Python GUI.lib.png.Reader.asRGB8",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node45 -> Node46 [color="midnightblue",fontsize="10",style="solid"];
+  Node46 [label="Python GUI.lib.png.Reader.\l_as_rescale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a65cac3c77200724db6555f70c2a8d016"];
+  Node45 -> Node47 [color="midnightblue",fontsize="10",style="solid"];
+  Node47 [label="Python GUI.lib.png.Reader.asRGB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a2323fcf6ed535c7cac5decdd1a6c3045"];
+  Node47 -> Node48 [color="midnightblue",fontsize="10",style="solid"];
+  Node48 [label="Python GUI.lib.png.Reader.as\lDirect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a9854b6edd68ba190d24f229422832841"];
+  Node48 -> Node49 [color="midnightblue",fontsize="10",style="solid"];
+  Node49 [label="Python GUI.lib.png.Reader.preamble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a2112fb66cd97c180f2fc274b25695fa9"];
+  Node49 -> Node50 [color="midnightblue",fontsize="10",style="solid"];
+  Node50 [label="Python GUI.lib.png.Reader.validate\l_signature",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a517babe81ebf2d6f14346c82a2f6625a"];
+  Node50 -> Node51 [color="midnightblue",fontsize="10",style="solid"];
+  Node51 [label="Python GUI.lib.png.Reader.read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#ac8def3e2a70eb8e229973086d39bd60a"];
+  Node51 -> Node52 [color="midnightblue",fontsize="10",style="solid"];
+  Node52 [label="Python GUI.lib.png.Reader.chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#afdde66c74c4a588f77ce5a5a51e19d20"];
+  Node52 -> Node50 [color="midnightblue",fontsize="10",style="solid"];
+  Node52 -> Node53 [color="midnightblue",fontsize="10",style="solid"];
+  Node53 [label="Python GUI.lib.png.Reader.chunklentype",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#af64dd7c0a755095c8cc34cdb175b0737"];
+  Node53 -> Node51 [color="midnightblue",fontsize="10",style="solid"];
+  Node52 -> Node51 [color="midnightblue",fontsize="10",style="solid"];
+  Node51 -> Node49 [color="midnightblue",fontsize="10",style="solid"];
+  Node51 -> Node54 [color="midnightblue",fontsize="10",style="solid"];
+  Node54 [label="Python GUI.lib.png.Reader.deinterlace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a6a088c059d68156e7e660c4d30e09d75"];
+  Node54 -> Node55 [color="midnightblue",fontsize="10",style="solid"];
+  Node55 [label="Python GUI.lib.png.Reader.undo\l_filter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a36ed43d219060dff3d3090e6b44dcec9"];
+  Node54 -> Node56 [color="midnightblue",fontsize="10",style="solid"];
+  Node56 [label="Python GUI.lib.png.Reader.serialtoflat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#ac0c234ad7bec1ecc87733167e8aa4fbc"];
+  Node51 -> Node57 [color="midnightblue",fontsize="10",style="solid"];
+  Node57 [label="Python GUI.lib.png.Reader.iterboxed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#aa96e3e861ca9e3dcd042266478f8197d"];
+  Node51 -> Node58 [color="midnightblue",fontsize="10",style="solid"];
+  Node58 [label="Python GUI.lib.png.Reader.iterstraight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a2a7a99295f841ace43bdc50855c35e36"];
+  Node58 -> Node55 [color="midnightblue",fontsize="10",style="solid"];
+  Node51 -> Node59 [color="midnightblue",fontsize="10",style="solid"];
+  Node59 [label="Python GUI.lib.png.Reader.palette",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a86dbd097935e19f48465cee11a5cdd8b"];
+  Node49 -> Node53 [color="midnightblue",fontsize="10",style="solid"];
+  Node49 -> Node60 [color="midnightblue",fontsize="10",style="solid"];
+  Node60 [label="Python GUI.lib.png.Reader.process\l_chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#aea5628481337f39025300c679a21502f"];
+  Node60 -> Node52 [color="midnightblue",fontsize="10",style="solid"];
+  Node48 -> Node61 [color="midnightblue",fontsize="10",style="solid"];
+  Node61 [label="Python GUI.lib.png.\l_readable.read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1__readable.html#acb81ccfd56470e661b850d0297716056"];
+  Node48 -> Node51 [color="midnightblue",fontsize="10",style="solid"];
+  Node48 -> Node59 [color="midnightblue",fontsize="10",style="solid"];
+}

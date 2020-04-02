@@ -1,0 +1,18 @@
+digraph "Python GUI.appjar.gui.threadCallback"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2155 [label="Python GUI.appjar.gui.thread\lCallback",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2155 -> Node2156 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2156 [label="Python GUI.appjar.gui.queue\lFunction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa1f4470e86a68404917803bdc62a6a2a"];
+  Node2156 -> Node2157 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2157 [label="Python GUI.appjar.gui.\l_loadThreading",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a98e0a521a795bbc342493e84d1b157d1"];
+  Node2155 -> Node2158 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2158 [label="Python GUI.appjar.gui.thread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a841944979bdfe335c983c40b29c903ac"];
+  Node2158 -> Node2157 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2155 -> Node2159 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2159 [label="Python GUI.appjar.gui.after",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a93a8c682a2fbc1fa491a0224e24fecc8"];
+  Node2155 -> Node2160 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2160 [label="Python GUI.appjar.gui._poll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ac8c6d61afa30359e50d36607fa2fb1bd"];
+}

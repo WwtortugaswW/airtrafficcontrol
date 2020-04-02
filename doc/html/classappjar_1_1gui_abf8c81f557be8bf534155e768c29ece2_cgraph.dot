@@ -1,0 +1,11 @@
+digraph "appjar.gui.addWebLink"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node775 [label="appjar.gui.addWebLink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node775 -> Node776 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node776 [label="appjar.gui._buildLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2ed1fa14dc3cf2f16d5e4df5cf2bd704"];
+  Node775 -> Node777 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node777 [label="appjar.gui._positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a073b1298767aeb92dd77b77cb6000e8c"];
+}

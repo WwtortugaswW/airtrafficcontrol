@@ -1,0 +1,41 @@
+digraph "appjar.gui.getRandomColour"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1313 [label="appjar.gui.getRandomColour",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1313 -> Node1314 [color="midnightblue",fontsize="10",style="solid"];
+  Node1314 [label="appjar.gui._loadRandom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a47c264686ea827d178f0b3414960c063",tooltip="library loaders - on demand loading of different classes "];
+  Node1313 -> Node1315 [color="midnightblue",fontsize="10",style="solid"];
+  Node1315 [label="appjar.gui.increaseLabelFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a90b21000e9922e91b1284e60930d3ef8"];
+  Node1313 -> Node1316 [color="midnightblue",fontsize="10",style="solid"];
+  Node1316 [label="appjar.gui.increaseButtonFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a22ca0f9161f9cb6550b7ca23b002ed90"];
+  Node1313 -> Node1317 [color="midnightblue",fontsize="10",style="solid"];
+  Node1317 [label="appjar.gui.decreaseLabelFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#abb6455bfc69dbb82d0babf025cb4fdda"];
+  Node1313 -> Node1318 [color="midnightblue",fontsize="10",style="solid"];
+  Node1318 [label="appjar.gui.decreaseButtonFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a5c5ac35771b5f350708b53c95b2a1213"];
+  Node1313 -> Node1319 [color="midnightblue",fontsize="10",style="solid"];
+  Node1319 [label="appjar.gui.setButtonFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ab5b7b796253832b3257a7ffc1e073907"];
+  Node1313 -> Node1320 [color="midnightblue",fontsize="10",style="solid"];
+  Node1320 [label="appjar.gui.setLabelFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a1a7dd97fbfc7b2326947e1305f583d38"];
+  Node1313 -> Node1321 [color="midnightblue",fontsize="10",style="solid"];
+  Node1321 [label="appjar.gui.setInputFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ae3a49186c1d723493c7e271f6dcdc64b"];
+  Node1313 -> Node1322 [color="midnightblue",fontsize="10",style="solid"];
+  Node1322 [label="appjar.gui._getContainer\lProperty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#aa5d65e2282cfbe0a4b963b369e7d4e51"];
+  Node1313 -> Node1323 [color="midnightblue",fontsize="10",style="solid"];
+  Node1323 [label="appjar.gui._fontHelper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a4a85a27feca7ac1978b2cbdd8a3aa022"];
+  Node1313 -> Node1324 [color="midnightblue",fontsize="10",style="solid"];
+  Node1324 [label="appjar.gui._isWidgetContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ad0339b08b05b4b569ac1bbc1036b133e"];
+  Node1313 -> Node1325 [color="midnightblue",fontsize="10",style="solid"];
+  Node1325 [label="appjar.gui._getTopLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a175eb1f92e48591eb8767f244ebcdd20"];
+  Node1313 -> Node1326 [color="midnightblue",fontsize="10",style="solid"];
+  Node1326 [label="appjar.gui.warn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a3ab0139430263b1913b4078cf34e7098"];
+  Node1313 -> Node1327 [color="midnightblue",fontsize="10",style="solid"];
+  Node1327 [label="appjar.gui._doTitleBar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#afe3d7459c66bad98dde751f487e0b2dd"];
+  Node1313 -> Node1328 [color="midnightblue",fontsize="10",style="solid"];
+  Node1328 [label="appjar.gui._getImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a8890a622d0e8ab681b20883f4c7512cf"];
+  Node1313 -> Node1329 [color="midnightblue",fontsize="10",style="solid"];
+  Node1329 [label="appjar.gui._getCanvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a810550f2df0e5903420dd85d29988b99"];
+  Node1313 -> Node1330 [color="midnightblue",fontsize="10",style="solid"];
+  Node1330 [label="appjar.gui._rightClick",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a6fdfd01492e894ced8238e2eee5b030b"];
+}

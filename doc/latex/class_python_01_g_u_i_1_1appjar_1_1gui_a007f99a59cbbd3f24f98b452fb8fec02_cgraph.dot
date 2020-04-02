@@ -1,0 +1,13 @@
+digraph "Python GUI.appjar.gui.queuePriorityFunction"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1753 [label="Python GUI.appjar.gui.queue\lPriorityFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1753 -> Node1754 [color="midnightblue",fontsize="10",style="solid"];
+  Node1754 [label="Python GUI.appjar.gui.\l_loadThreading",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a98e0a521a795bbc342493e84d1b157d1"];
+  Node1753 -> Node1755 [color="midnightblue",fontsize="10",style="solid"];
+  Node1755 [label="Python GUI.appjar.gui.after",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a93a8c682a2fbc1fa491a0224e24fecc8"];
+  Node1753 -> Node1756 [color="midnightblue",fontsize="10",style="solid"];
+  Node1756 [label="Python GUI.appjar.gui.\l_processEventQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a600c30fba3c08cb68e9aaffa7a33efeb"];
+}

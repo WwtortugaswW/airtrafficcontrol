@@ -1,0 +1,13 @@
+digraph "appjar.gui.addNamedButton"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node670 [label="appjar.gui.addNamedButton",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node670 -> Node671 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node671 [label="appjar.gui._buildButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a743b09372a5d53f5049cb1ed17251f20"];
+  Node670 -> Node672 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node672 [label="appjar.gui.getContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2e8ea27bae5f6758257be218c8279b56"];
+  Node670 -> Node673 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node673 [label="appjar.gui._positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a073b1298767aeb92dd77b77cb6000e8c"];
+}

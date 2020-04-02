@@ -1,0 +1,25 @@
+digraph "Python GUI.appjar.gui.addNamedCheckBox"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node674 [label="Python GUI.appjar.gui.add\lNamedCheckBox",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node674 -> Node675 [color="midnightblue",fontsize="10",style="solid"];
+  Node675 [label="Python GUI.appjar.gui.add\lCheckBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a3ff3e39fe6eb3d563f8cfd4bd8299903"];
+  Node675 -> Node676 [color="midnightblue",fontsize="10",style="solid"];
+  Node676 [label="Python GUI.appjar.gui.get\lContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa89c83e95e3952f6cc39fc23dffa15ce"];
+  Node675 -> Node677 [color="midnightblue",fontsize="10",style="solid"];
+  Node677 [label="Python GUI.appjar.gui.\l_getContainerProperty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa0cf90816634eb9855a518e37d864ec1"];
+  Node675 -> Node678 [color="midnightblue",fontsize="10",style="solid"];
+  Node678 [label="Python GUI.appjar.gui.\l_getContainerBg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a7ca2e28f0ccf3c5e00ca64676c496afd"];
+  Node675 -> Node679 [color="midnightblue",fontsize="10",style="solid"];
+  Node679 [label="Python GUI.appjar.gui.\l_grabFocus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a1250327630c10e3a669b5e3bb8a0fc14"];
+  Node675 -> Node680 [color="midnightblue",fontsize="10",style="solid"];
+  Node680 [label="Python GUI.appjar.gui.\l_positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a994cf4bbd47f434233271d3d8b0eb4c6"];
+  Node674 -> Node681 [color="midnightblue",fontsize="10",style="solid"];
+  Node681 [label="Python GUI.appjar.gui.get\lCheckBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a60e67fd19adb7ae69b8fd3edbde007a7"];
+  Node674 -> Node682 [color="midnightblue",fontsize="10",style="solid"];
+  Node682 [label="Python GUI.appjar.gui.set\lCheckBoxSelectColour",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a64acec1a814e0512309a1d7b898cec4f"];
+  Node674 -> Node683 [color="midnightblue",fontsize="10",style="solid"];
+  Node683 [label="Python GUI.appjar.gui.set\lCheckBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa4610ef752b311f0d577d0f7ce399fc6"];
+}

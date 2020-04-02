@@ -1,0 +1,24 @@
+digraph "Python GUI.appjar.gui.setStopFunction"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1909 [label="Python GUI.appjar.gui.set\lStopFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1909 -> Node1910 [color="midnightblue",fontsize="10",style="solid"];
+  Node1910 [label="Python GUI.appjar.gui.\l_getTopLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a931a365190d4c36c4de0d6e37d54bb8d"];
+  Node1909 -> Node1911 [color="midnightblue",fontsize="10",style="solid"];
+  Node1911 [label="Python GUI.appjar.gui.\l_getContainerProperty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa0cf90816634eb9855a518e37d864ec1"];
+  Node1909 -> Node1912 [color="midnightblue",fontsize="10",style="solid"];
+  Node1912 [label="Python GUI.appjar.gui.stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a09fd0d3197efd74785125a04344eac6d"];
+  Node1912 -> Node1910 [color="midnightblue",fontsize="10",style="solid"];
+  Node1912 -> Node1913 [color="midnightblue",fontsize="10",style="solid"];
+  Node1913 [label="Python GUI.appjar.gui.save\lSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a137411361931260f10d73b09d061d47d"];
+  Node1913 -> Node1914 [color="midnightblue",fontsize="10",style="solid"];
+  Node1914 [label="Python GUI.appjar.gui.\l_loadConfigParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a18c798c89fa1d417d9d6c99ae51d7c80"];
+  Node1913 -> Node1915 [color="midnightblue",fontsize="10",style="solid"];
+  Node1915 [label="Python GUI.appjar.gui.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#af22f729601dae6a052666888083813af"];
+  Node1912 -> Node1916 [color="midnightblue",fontsize="10",style="solid"];
+  Node1916 [label="Python GUI.appjar.gui.after\l_cancel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa76abbe29ba1e69540f58126aa43e127"];
+  Node1912 -> Node1917 [color="midnightblue",fontsize="10",style="solid"];
+  Node1917 [label="Python GUI.appjar.gui.stop\lSound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa919112c54aabc700943d8739fe15acf"];
+}

@@ -1,0 +1,11 @@
+digraph "Python GUI.appjar.gui.addWebLink"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node775 [label="Python GUI.appjar.gui.add\lWebLink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node775 -> Node776 [color="midnightblue",fontsize="10",style="solid"];
+  Node776 [label="Python GUI.appjar.gui.\l_buildLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a477393e91d465287155c9743f30c6809"];
+  Node775 -> Node777 [color="midnightblue",fontsize="10",style="solid"];
+  Node777 [label="Python GUI.appjar.gui.\l_positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a994cf4bbd47f434233271d3d8b0eb4c6"];
+}

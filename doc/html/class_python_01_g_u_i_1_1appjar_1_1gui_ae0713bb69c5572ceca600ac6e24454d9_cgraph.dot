@@ -1,0 +1,13 @@
+digraph "Python GUI.appjar.gui.textAreaToggleTagRange"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2149 [label="Python GUI.appjar.gui.text\lAreaToggleTagRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2149 -> Node2150 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2150 [label="Python GUI.appjar.gui.text\lAreaUntagRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a568d8cbcfaa3fe2472d9846f69f69aa5"];
+  Node2149 -> Node2151 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2151 [label="Python GUI.appjar.gui.text\lAreaTagRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a6e203fa26a8192d057596db2f072f73c"];
+  Node2151 -> Node2151 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2149 -> Node2149 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

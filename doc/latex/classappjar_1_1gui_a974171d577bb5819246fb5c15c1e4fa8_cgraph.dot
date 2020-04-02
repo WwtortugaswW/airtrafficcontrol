@@ -1,0 +1,20 @@
+digraph "appjar.gui.changeOptionBox"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node893 [label="appjar.gui.changeOptionBox",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node893 -> Node894 [color="midnightblue",fontsize="10",style="solid"];
+  Node894 [label="appjar.gui._configOption\lBoxList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#adf8f2708fccc3dd7aabf89a51b99c84a"];
+  Node893 -> Node895 [color="midnightblue",fontsize="10",style="solid"];
+  Node895 [label="appjar.gui.warn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a3ab0139430263b1913b4078cf34e7098"];
+  Node893 -> Node896 [color="midnightblue",fontsize="10",style="solid"];
+  Node896 [label="appjar.gui._buildTickOptionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2972ad12f09ae0257127f51a7fa3b214"];
+  Node893 -> Node897 [color="midnightblue",fontsize="10",style="solid"];
+  Node897 [label="appjar.gui._disableOption\lBoxSeparators",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a37d662a79a1c51f5a89cabec8c2600e9"];
+  Node893 -> Node898 [color="midnightblue",fontsize="10",style="solid"];
+  Node898 [label="appjar.gui.setOptionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a1265f35528c0da179bf0ef8568fdf463"];
+  Node898 -> Node895 [color="midnightblue",fontsize="10",style="solid"];
+  Node898 -> Node893 [color="midnightblue",fontsize="10",style="solid"];
+  Node898 -> Node898 [color="midnightblue",fontsize="10",style="solid"];
+}

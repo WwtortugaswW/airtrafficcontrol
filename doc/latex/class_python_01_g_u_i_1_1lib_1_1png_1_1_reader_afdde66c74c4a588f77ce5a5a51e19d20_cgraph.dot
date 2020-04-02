@@ -1,0 +1,36 @@
+digraph "Python GUI.lib.png.Reader.chunk"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node94 [label="Python GUI.lib.png.Reader.chunk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node94 -> Node95 [color="midnightblue",fontsize="10",style="solid"];
+  Node95 [label="Python GUI.lib.png.Reader.validate\l_signature",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a517babe81ebf2d6f14346c82a2f6625a"];
+  Node95 -> Node96 [color="midnightblue",fontsize="10",style="solid"];
+  Node96 [label="Python GUI.lib.png.Reader.read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#ac8def3e2a70eb8e229973086d39bd60a"];
+  Node96 -> Node94 [color="midnightblue",fontsize="10",style="solid"];
+  Node96 -> Node97 [color="midnightblue",fontsize="10",style="solid"];
+  Node97 [label="Python GUI.lib.png.Reader.preamble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a2112fb66cd97c180f2fc274b25695fa9"];
+  Node97 -> Node95 [color="midnightblue",fontsize="10",style="solid"];
+  Node97 -> Node98 [color="midnightblue",fontsize="10",style="solid"];
+  Node98 [label="Python GUI.lib.png.Reader.chunklentype",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#af64dd7c0a755095c8cc34cdb175b0737"];
+  Node98 -> Node96 [color="midnightblue",fontsize="10",style="solid"];
+  Node97 -> Node99 [color="midnightblue",fontsize="10",style="solid"];
+  Node99 [label="Python GUI.lib.png.Reader.process\l_chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#aea5628481337f39025300c679a21502f"];
+  Node99 -> Node94 [color="midnightblue",fontsize="10",style="solid"];
+  Node96 -> Node100 [color="midnightblue",fontsize="10",style="solid"];
+  Node100 [label="Python GUI.lib.png.Reader.deinterlace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a6a088c059d68156e7e660c4d30e09d75"];
+  Node100 -> Node101 [color="midnightblue",fontsize="10",style="solid"];
+  Node101 [label="Python GUI.lib.png.Reader.undo\l_filter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a36ed43d219060dff3d3090e6b44dcec9"];
+  Node100 -> Node102 [color="midnightblue",fontsize="10",style="solid"];
+  Node102 [label="Python GUI.lib.png.Reader.serialtoflat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#ac0c234ad7bec1ecc87733167e8aa4fbc"];
+  Node96 -> Node103 [color="midnightblue",fontsize="10",style="solid"];
+  Node103 [label="Python GUI.lib.png.Reader.iterboxed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#aa96e3e861ca9e3dcd042266478f8197d"];
+  Node96 -> Node104 [color="midnightblue",fontsize="10",style="solid"];
+  Node104 [label="Python GUI.lib.png.Reader.iterstraight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a2a7a99295f841ace43bdc50855c35e36"];
+  Node104 -> Node101 [color="midnightblue",fontsize="10",style="solid"];
+  Node96 -> Node105 [color="midnightblue",fontsize="10",style="solid"];
+  Node105 [label="Python GUI.lib.png.Reader.palette",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a86dbd097935e19f48465cee11a5cdd8b"];
+  Node94 -> Node98 [color="midnightblue",fontsize="10",style="solid"];
+  Node94 -> Node96 [color="midnightblue",fontsize="10",style="solid"];
+}

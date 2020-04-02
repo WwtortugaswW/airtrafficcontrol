@@ -1,0 +1,21 @@
+digraph "Python GUI.appjar.gui.addLabelScale"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node595 [label="Python GUI.appjar.gui.add\lLabelScale",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node595 -> Node596 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node596 [label="Python GUI.appjar.gui.\l_getLabelBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#afee6592c719c5824c445781577480316",tooltip="LabelBox Functions. "];
+  Node595 -> Node597 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node597 [label="Python GUI.appjar.gui.\l_buildScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ad3645a12e4a29844df7dc7b289dbb552"];
+  Node595 -> Node598 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node598 [label="Python GUI.appjar.gui.\l_packLabelBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a9528d09a82d6285e00026df374acb48f"];
+  Node595 -> Node599 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node599 [label="Python GUI.appjar.gui.\l_positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a994cf4bbd47f434233271d3d8b0eb4c6"];
+  Node595 -> Node600 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node600 [label="Python GUI.appjar.gui.get\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a61db75894a43e88c3db1ff878bbef2ff"];
+  Node595 -> Node601 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node601 [label="Python GUI.appjar.gui.set\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a272750d930eed681c22b03cd526e0c24"];
+  Node595 -> Node602 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node602 [label="Python GUI.appjar.gui.warn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa0a271b0b17a802e6d7b598c12bcd930"];
+}

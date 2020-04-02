@@ -1,0 +1,27 @@
+digraph "appjar.WidgetManager.group"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="appjar.WidgetManager.group",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="appjar.WidgetManager.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a237b5408dafc346803d9df8053332fad"];
+  Node25 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="appjar.WidgetManager.log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a24c5c2b761f77a0a379e6607315f48b4"];
+  Node26 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="appjar.WidgetManager.verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a267493893f210a5176a30793a32618c6"];
+  Node27 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="appjar.WidgetManager.get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#aa7f8a7e8180832988cb72181bb589701"];
+  Node28 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="appjar.WidgetManager.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#adcb0832cb43e8322c7510daf805cb825"];
+  Node29 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="appjar.WidgetManager.check",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a51183226169b8a80f750d0c68b7eeb95"];
+  Node30 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="appjar.WidgetManager.destroy\lWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a4608b351cc17d30af3adf63523181c41"];
+}

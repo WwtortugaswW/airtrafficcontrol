@@ -1,0 +1,36 @@
+digraph "appjar.gui.addIconButton"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node422 [label="appjar.gui.addIconButton",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node422 -> Node423 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node423 [label="appjar.gui.addImageButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a3521399bb981d9d5b6af254c14a3b690"];
+  Node423 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node424 [label="appjar.gui._buildButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a743b09372a5d53f5049cb1ed17251f20"];
+  Node423 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node425 [label="appjar.gui.getContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2e8ea27bae5f6758257be218c8279b56"];
+  Node423 -> Node426 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node426 [label="appjar.gui._positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a073b1298767aeb92dd77b77cb6000e8c"];
+  Node423 -> Node427 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node427 [label="appjar.gui.setButtonImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#aa327aedc5e1c7374486e1b36afcd4a7a"];
+  Node422 -> Node428 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node428 [label="appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a42aaf376a6c07c842b1b498948a9691a",tooltip="FUNCTION for managing commands. "];
+  Node422 -> Node429 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node429 [label="appjar.gui._getImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a8890a622d0e8ab681b20883f4c7512cf"];
+  Node422 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node430 [label="appjar.gui._parsePos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a8174359ccd50269f6c9f63f00cbb9d7e",tooltip="FUNCTIONS for labels. "];
+  Node422 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node431 [label="appjar.gui._addButtons",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#acdffd8273f2d8afdba15e135c625ea80"];
+  Node422 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node432 [label="appjar.gui._configWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ac54e9af2a9e7a18f87f0ffafbd156353"];
+  Node422 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node433 [label="appjar.gui.addButtons",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#afc0cb1277159e171b5640069a801a4e6"];
+  Node433 -> Node434 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node434 [label="appjar.gui._checkFunc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#af3fb6a855afe0776263e0029a2c07270"];
+  Node433 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node433 -> Node435 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node435 [label="appjar.gui._getContainerBg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a120b8d0d6e0b536ac8735df1ffefd37a"];
+  Node433 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node433 -> Node426 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

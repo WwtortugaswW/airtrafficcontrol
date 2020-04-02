@@ -1,0 +1,41 @@
+digraph "Python GUI.appjar.gui.addDbGrid"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node265 [label="Python GUI.appjar.gui.add\lDbGrid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node265 -> Node266 [color="midnightblue",fontsize="10",style="solid"];
+  Node266 [label="Python GUI.appjar.gui.add\lDbTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#af64997bd78a9608cb2b4965fc29d1506"];
+  Node266 -> Node267 [color="midnightblue",fontsize="10",style="solid"];
+  Node267 [label="Python GUI.appjar.gui.\l_importSqlite3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#af24d396fff4655f45724add0b8507878"];
+  Node266 -> Node268 [color="midnightblue",fontsize="10",style="solid"];
+  Node268 [label="Python GUI.appjar.gui.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#af22f729601dae6a052666888083813af"];
+  Node266 -> Node269 [color="midnightblue",fontsize="10",style="solid"];
+  Node269 [label="Python GUI.appjar.gui.add\lTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#afed5cffabe4edde6b5d18c2b8c5b3858"];
+  Node269 -> Node270 [color="midnightblue",fontsize="10",style="solid"];
+  Node270 [label="Python GUI.appjar.gui.get\lContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa89c83e95e3952f6cc39fc23dffa15ce"];
+  Node269 -> Node271 [color="midnightblue",fontsize="10",style="solid"];
+  Node271 [label="Python GUI.appjar.gui.\l_getContainerProperty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa0cf90816634eb9855a518e37d864ec1"];
+  Node269 -> Node272 [color="midnightblue",fontsize="10",style="solid"];
+  Node272 [label="Python GUI.appjar.gui.\l_getContainerBg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a7ca2e28f0ccf3c5e00ca64676c496afd"];
+  Node269 -> Node273 [color="midnightblue",fontsize="10",style="solid"];
+  Node273 [label="Python GUI.appjar.gui.queue\lFunction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa1f4470e86a68404917803bdc62a6a2a"];
+  Node273 -> Node274 [color="midnightblue",fontsize="10",style="solid"];
+  Node274 [label="Python GUI.appjar.gui.\l_loadThreading",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a98e0a521a795bbc342493e84d1b157d1"];
+  Node269 -> Node275 [color="midnightblue",fontsize="10",style="solid"];
+  Node275 [label="Python GUI.appjar.gui.\l_positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a994cf4bbd47f434233271d3d8b0eb4c6"];
+  Node269 -> Node276 [color="midnightblue",fontsize="10",style="solid"];
+  Node276 [label="Python GUI.appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a1d2c0d0a475441a8f9208204ef3227a6",tooltip="FUNCTION for managing commands. "];
+  Node265 -> Node277 [color="midnightblue",fontsize="10",style="solid"];
+  Node277 [label="Python GUI.appjar.gui.replace\lDbTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a4ee55b4d487a45cd562fcec7882dd410"];
+  Node265 -> Node278 [color="midnightblue",fontsize="10",style="solid"];
+  Node278 [label="Python GUI.appjar.gui.refresh\lDbTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ae29cc2eb55a286d1308c66d4d8ac3123"];
+  Node265 -> Node279 [color="midnightblue",fontsize="10",style="solid"];
+  Node279 [label="Python GUI.appjar.gui.select\lTableRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#abaa43ccbe0971192a9e1ca6ae772e07c"];
+  Node265 -> Node280 [color="midnightblue",fontsize="10",style="solid"];
+  Node280 [label="Python GUI.appjar.gui.get\lTableEntries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ad52636dd598562b2caa1e0047c906ec3"];
+  Node265 -> Node281 [color="midnightblue",fontsize="10",style="solid"];
+  Node281 [label="Python GUI.appjar.gui.get\lTableSelectedCells",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ad79e67da7a4e0adbafff26b2f82737b0"];
+  Node265 -> Node282 [color="midnightblue",fontsize="10",style="solid"];
+  Node282 [label="Python GUI.appjar.gui.select\lTableColumn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a27683b126f18f50c81bf186939fbbc04"];
+}

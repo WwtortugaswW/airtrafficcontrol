@@ -1,0 +1,9 @@
+digraph "appjar.gui.afterIdle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node826 [label="appjar.gui.afterIdle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node826 -> Node827 [color="midnightblue",fontsize="10",style="solid"];
+  Node827 [label="appjar.gui.after_idle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ac77f7de243bdc2768c5e6bb4ed27c6fe"];
+}

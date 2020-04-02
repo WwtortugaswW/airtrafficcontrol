@@ -1,0 +1,30 @@
+digraph "Python GUI.appjar.gui.properties"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1739 [label="Python GUI.appjar.gui.properties",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1739 -> Node1740 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1740 [label="Python GUI.appjar.gui.get\lProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a1e7a0a7d7080bd44593ca190032b831d"];
+  Node1739 -> Node1741 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1741 [label="Python GUI.appjar.gui.\l_parsePos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a1151185c82adc42b922797e38132c2ca",tooltip="FUNCTIONS for labels. "];
+  Node1739 -> Node1742 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1742 [label="Python GUI.appjar.gui.add\lProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a25547332eaf669ac5351b453accc1ae2"];
+  Node1742 -> Node1743 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1743 [label="Python GUI.appjar.gui.\l_getContainerProperty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa0cf90816634eb9855a518e37d864ec1"];
+  Node1742 -> Node1744 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1744 [label="Python GUI.appjar.gui.get\lContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#aa89c83e95e3952f6cc39fc23dffa15ce"];
+  Node1742 -> Node1745 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1745 [label="Python GUI.appjar.gui.\l_getContainerBg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a7ca2e28f0ccf3c5e00ca64676c496afd"];
+  Node1742 -> Node1746 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1746 [label="Python GUI.appjar.gui.\l_positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a994cf4bbd47f434233271d3d8b0eb4c6"];
+  Node1742 -> Node1740 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1742 -> Node1747 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1747 [label="Python GUI.appjar.gui.set\lPropertiesSelectColour",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a6fa2522aa4e22703e49117de6ae144fc"];
+  Node1742 -> Node1748 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1748 [label="Python GUI.appjar.gui.clear\lProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#ae23f34a3dd359056ff8fdd898c3118b1"];
+  Node1742 -> Node1749 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1749 [label="Python GUI.appjar.gui.reset\lProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a9bebed6fd7dad780cc05388672bc023e"];
+  Node1739 -> Node1750 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1750 [label="Python GUI.appjar.gui.\l_configWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a66b018474a855b26826b0580a7c40a9e"];
+}

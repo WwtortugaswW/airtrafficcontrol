@@ -1,0 +1,41 @@
+digraph "appjar.TextParent.setFont"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="appjar.TextParent.setFont",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="appjar.TextParent.clearModifiedFlag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_text_parent.html#acd1421fa91b4257aca40300821503db6"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="appjar.TextParent.beenModified",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_text_parent.html#a726e48a84d6f96119ada309badcd9cd6"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="appjar.Enum.get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_enum.html#a5bcba037d54889023502a4ef70171313"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="appjar.Meter.get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_meter.html#accdcb3ab58ffe06d50243f2ab6704856"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="appjar.WidgetManager.get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#aa7f8a7e8180832988cb72181bb589701"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="appjar.WidgetManager.group",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a27966c0641e12877b49f89d68119777c"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="appjar.WidgetManager.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a237b5408dafc346803d9df8053332fad"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="appjar.WidgetManager.log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a24c5c2b761f77a0a379e6607315f48b4"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="appjar.WidgetManager.verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a267493893f210a5176a30793a32618c6"];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="appjar.WidgetManager.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#adcb0832cb43e8322c7510daf805cb825"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="appjar.WidgetManager.check",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a51183226169b8a80f750d0c68b7eeb95"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="appjar.WidgetManager.destroy\lWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_widget_manager.html#a4608b351cc17d30af3adf63523181c41"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="appjar.TextParent.getText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_text_parent.html#aaa89a6e515c1765e574b42eba82d8388"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid"];
+  Node15 [label="appjar.TextParent.highlight\lPattern",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1_text_parent.html#a5ec475a483e2783b731cf31c6833047b"];
+}

@@ -1,0 +1,48 @@
+digraph "appjar.gui.loadSettings"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1519 [label="appjar.gui.loadSettings",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1519 -> Node1520 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1520 [label="appjar.gui._loadConfigParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a362d67d86fa2592c16203952dcf04ec9"];
+  Node1519 -> Node1521 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1521 [label="appjar.gui.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ac310868eecf500d1570400b396793b87"];
+  Node1519 -> Node1522 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1522 [label="appjar.gui.setSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a0b451e1a9bafe3beb0e655dd619ceefe",tooltip="FUNCTIONS for configuring GUI settings. "];
+  Node1522 -> Node1523 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1523 [label="appjar.gui._getTopLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a175eb1f92e48591eb8767f244ebcdd20"];
+  Node1522 -> Node1524 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1524 [label="appjar.gui.setFullscreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ab87484f1715bcc51ad4e9d1235554c6b"];
+  Node1524 -> Node1523 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1524 -> Node1525 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1525 [label="appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a42aaf376a6c07c842b1b498948a9691a",tooltip="FUNCTION for managing commands. "];
+  Node1524 -> Node1526 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1526 [label="appjar.gui.exitFullscreen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a12568d9c85a65c4e0cf77f1f1f3c6acc"];
+  Node1526 -> Node1523 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1526 -> Node1527 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1527 [label="appjar.gui._doTitleBar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#afe3d7459c66bad98dde751f487e0b2dd"];
+  Node1524 -> Node1524 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1522 -> Node1528 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1528 [label="appjar.gui.trace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ad70fee01cb2dbb2f5daef089c7e33884"];
+  Node1522 -> Node1529 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1529 [label="appjar.gui.setMinSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a125479cea0bdfeb13d758629183c3bbc"];
+  Node1522 -> Node1526 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1519 -> Node1530 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1530 [label="appjar.gui.setLocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ac8a8c2c4163d7ccb10d7749d6637046c"];
+  Node1530 -> Node1523 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1519 -> Node1524 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1519 -> Node1526 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1519 -> Node1523 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1519 -> Node1531 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1531 [label="appjar.gui.getToggleFrame\lState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ae5101e3d38337bad2db424b80830ce34"];
+  Node1519 -> Node1532 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1532 [label="appjar.gui.toggleToggleFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#af6979ad59106b835f53cf0c7f2913de6"];
+  Node1519 -> Node1533 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1533 [label="appjar.gui.setTabbedFrame\lSelectedTab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#aa1dfd83c4d5a859d1adf434ec31d73f4"];
+  Node1519 -> Node1534 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1534 [label="appjar.gui.setPagedWindowPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#aee32c73ed84067cf1fbf172d38315070"];
+  Node1519 -> Node1535 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1535 [label="appjar.gui.setSubWindowLocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#aae8abaabebb7eeb5359894d8e3c81cb5"];
+  Node1519 -> Node1529 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

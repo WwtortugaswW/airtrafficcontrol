@@ -1,0 +1,13 @@
+digraph "appjar.gui.addLink"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node628 [label="appjar.gui.addLink",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node628 -> Node629 [color="midnightblue",fontsize="10",style="solid"];
+  Node629 [label="appjar.gui._buildLink",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2ed1fa14dc3cf2f16d5e4df5cf2bd704"];
+  Node628 -> Node630 [color="midnightblue",fontsize="10",style="solid"];
+  Node630 [label="appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a42aaf376a6c07c842b1b498948a9691a",tooltip="FUNCTION for managing commands. "];
+  Node628 -> Node631 [color="midnightblue",fontsize="10",style="solid"];
+  Node631 [label="appjar.gui._positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a073b1298767aeb92dd77b77cb6000e8c"];
+}

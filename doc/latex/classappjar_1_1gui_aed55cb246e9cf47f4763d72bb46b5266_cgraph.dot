@@ -1,0 +1,13 @@
+digraph "appjar.gui.queuePriorityFunction"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1753 [label="appjar.gui.queuePriority\lFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1753 -> Node1754 [color="midnightblue",fontsize="10",style="solid"];
+  Node1754 [label="appjar.gui._loadThreading",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#af7f64c964f3488ca8c13296f8c683b0c"];
+  Node1753 -> Node1755 [color="midnightblue",fontsize="10",style="solid"];
+  Node1755 [label="appjar.gui.after",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a1fde7d8815e07abdeec5f885eebf3080"];
+  Node1753 -> Node1756 [color="midnightblue",fontsize="10",style="solid"];
+  Node1756 [label="appjar.gui._processEvent\lQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a19c7e190ceab6205f57dd284cc3d1e9b"];
+}

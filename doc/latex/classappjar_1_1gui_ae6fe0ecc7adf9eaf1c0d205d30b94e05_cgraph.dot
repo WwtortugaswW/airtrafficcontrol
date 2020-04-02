@@ -1,0 +1,27 @@
+digraph "appjar.gui.addDbTable"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node320 [label="appjar.gui.addDbTable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node320 -> Node321 [color="midnightblue",fontsize="10",style="solid"];
+  Node321 [label="appjar.gui._importSqlite3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a0fcb074a850e67a1122adbfd52c9d168"];
+  Node320 -> Node322 [color="midnightblue",fontsize="10",style="solid"];
+  Node322 [label="appjar.gui.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ac310868eecf500d1570400b396793b87"];
+  Node320 -> Node323 [color="midnightblue",fontsize="10",style="solid"];
+  Node323 [label="appjar.gui.addTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a35b300980afd1ca2cb3b5f6396160459"];
+  Node323 -> Node324 [color="midnightblue",fontsize="10",style="solid"];
+  Node324 [label="appjar.gui.getContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2e8ea27bae5f6758257be218c8279b56"];
+  Node323 -> Node325 [color="midnightblue",fontsize="10",style="solid"];
+  Node325 [label="appjar.gui._getContainer\lProperty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#aa5d65e2282cfbe0a4b963b369e7d4e51"];
+  Node323 -> Node326 [color="midnightblue",fontsize="10",style="solid"];
+  Node326 [label="appjar.gui._getContainerBg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a120b8d0d6e0b536ac8735df1ffefd37a"];
+  Node323 -> Node327 [color="midnightblue",fontsize="10",style="solid"];
+  Node327 [label="appjar.gui.queueFunction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a4e49b2e9ac6a35cb037ddf685a28692e"];
+  Node327 -> Node328 [color="midnightblue",fontsize="10",style="solid"];
+  Node328 [label="appjar.gui._loadThreading",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#af7f64c964f3488ca8c13296f8c683b0c"];
+  Node323 -> Node329 [color="midnightblue",fontsize="10",style="solid"];
+  Node329 [label="appjar.gui._positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a073b1298767aeb92dd77b77cb6000e8c"];
+  Node323 -> Node330 [color="midnightblue",fontsize="10",style="solid"];
+  Node330 [label="appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a42aaf376a6c07c842b1b498948a9691a",tooltip="FUNCTION for managing commands. "];
+}

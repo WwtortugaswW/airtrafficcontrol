@@ -1,0 +1,40 @@
+digraph "appjar.gui.table"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2078 [label="appjar.gui.table",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2078 -> Node2079 [color="midnightblue",fontsize="10",style="solid"];
+  Node2079 [label="appjar.gui.replaceAllTableRows",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a75d8c49582aefb95d8eab0fc1022f383"];
+  Node2078 -> Node2080 [color="midnightblue",fontsize="10",style="solid"];
+  Node2080 [label="appjar.gui.getTableEntries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a6f5ea25b93f0db8e65368a6d105a77fa"];
+  Node2078 -> Node2081 [color="midnightblue",fontsize="10",style="solid"];
+  Node2081 [label="appjar.gui._parsePos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a8174359ccd50269f6c9f63f00cbb9d7e",tooltip="FUNCTIONS for labels. "];
+  Node2078 -> Node2082 [color="midnightblue",fontsize="10",style="solid"];
+  Node2082 [label="appjar.gui.addTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a35b300980afd1ca2cb3b5f6396160459"];
+  Node2082 -> Node2083 [color="midnightblue",fontsize="10",style="solid"];
+  Node2083 [label="appjar.gui.getContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2e8ea27bae5f6758257be218c8279b56"];
+  Node2082 -> Node2084 [color="midnightblue",fontsize="10",style="solid"];
+  Node2084 [label="appjar.gui._getContainer\lProperty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#aa5d65e2282cfbe0a4b963b369e7d4e51"];
+  Node2082 -> Node2085 [color="midnightblue",fontsize="10",style="solid"];
+  Node2085 [label="appjar.gui._getContainerBg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a120b8d0d6e0b536ac8735df1ffefd37a"];
+  Node2082 -> Node2086 [color="midnightblue",fontsize="10",style="solid"];
+  Node2086 [label="appjar.gui.queueFunction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a4e49b2e9ac6a35cb037ddf685a28692e"];
+  Node2086 -> Node2087 [color="midnightblue",fontsize="10",style="solid"];
+  Node2087 [label="appjar.gui._loadThreading",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#af7f64c964f3488ca8c13296f8c683b0c"];
+  Node2082 -> Node2088 [color="midnightblue",fontsize="10",style="solid"];
+  Node2088 [label="appjar.gui._positionWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a073b1298767aeb92dd77b77cb6000e8c"];
+  Node2082 -> Node2089 [color="midnightblue",fontsize="10",style="solid"];
+  Node2089 [label="appjar.gui.MAKE_FUNC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a42aaf376a6c07c842b1b498948a9691a",tooltip="FUNCTION for managing commands. "];
+  Node2078 -> Node2090 [color="midnightblue",fontsize="10",style="solid"];
+  Node2090 [label="appjar.gui.addDbTable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ae6fe0ecc7adf9eaf1c0d205d30b94e05"];
+  Node2090 -> Node2091 [color="midnightblue",fontsize="10",style="solid"];
+  Node2091 [label="appjar.gui._importSqlite3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a0fcb074a850e67a1122adbfd52c9d168"];
+  Node2090 -> Node2092 [color="midnightblue",fontsize="10",style="solid"];
+  Node2092 [label="appjar.gui.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ac310868eecf500d1570400b396793b87"];
+  Node2090 -> Node2082 [color="midnightblue",fontsize="10",style="solid"];
+  Node2078 -> Node2093 [color="midnightblue",fontsize="10",style="solid"];
+  Node2093 [label="appjar.gui.setTableEditFunction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a5236549bdb0ee196c34178b9f4bb8ae6"];
+  Node2078 -> Node2094 [color="midnightblue",fontsize="10",style="solid"];
+  Node2094 [label="appjar.gui._configWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#ac54e9af2a9e7a18f87f0ffafbd156353"];
+}

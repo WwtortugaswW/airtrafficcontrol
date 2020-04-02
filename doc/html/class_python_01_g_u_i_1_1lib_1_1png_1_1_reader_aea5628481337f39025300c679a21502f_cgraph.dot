@@ -1,0 +1,36 @@
+digraph "Python GUI.lib.png.Reader.process_chunk"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node150 [label="Python GUI.lib.png.Reader.process\l_chunk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node150 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node151 [label="Python GUI.lib.png.Reader.chunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#afdde66c74c4a588f77ce5a5a51e19d20"];
+  Node151 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node152 [label="Python GUI.lib.png.Reader.validate\l_signature",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a517babe81ebf2d6f14346c82a2f6625a"];
+  Node152 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="Python GUI.lib.png.Reader.read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#ac8def3e2a70eb8e229973086d39bd60a"];
+  Node153 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 -> Node154 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 [label="Python GUI.lib.png.Reader.preamble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a2112fb66cd97c180f2fc274b25695fa9"];
+  Node154 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 -> Node155 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node155 [label="Python GUI.lib.png.Reader.chunklentype",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#af64dd7c0a755095c8cc34cdb175b0737"];
+  Node155 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 -> Node156 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node156 [label="Python GUI.lib.png.Reader.deinterlace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a6a088c059d68156e7e660c4d30e09d75"];
+  Node156 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 [label="Python GUI.lib.png.Reader.undo\l_filter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a36ed43d219060dff3d3090e6b44dcec9"];
+  Node156 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="Python GUI.lib.png.Reader.serialtoflat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#ac0c234ad7bec1ecc87733167e8aa4fbc"];
+  Node153 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="Python GUI.lib.png.Reader.iterboxed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#aa96e3e861ca9e3dcd042266478f8197d"];
+  Node153 -> Node160 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node160 [label="Python GUI.lib.png.Reader.iterstraight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a2a7a99295f841ace43bdc50855c35e36"];
+  Node160 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 -> Node161 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 [label="Python GUI.lib.png.Reader.palette",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_reader.html#a86dbd097935e19f48465cee11a5cdd8b"];
+  Node151 -> Node155 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node151 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

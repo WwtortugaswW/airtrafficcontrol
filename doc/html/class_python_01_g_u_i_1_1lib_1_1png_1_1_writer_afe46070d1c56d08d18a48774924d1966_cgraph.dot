@@ -1,0 +1,18 @@
+digraph "Python GUI.lib.png.Writer.write"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="Python GUI.lib.png.Writer.write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Python GUI.lib.png.Writer.write\l_array",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_writer.html#a236f3bf09634539c21b4978014adc9b1"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Python GUI.lib.png.Writer.write\l_passes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_writer.html#a9590bc26c068a9a4f6374d0d3246c2a3"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Python GUI.lib.png.Writer.make\l_palette",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_writer.html#ae230c94e859c63c11bd9ee6d0ac94c9e"];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Python GUI.lib.png.Writer.array\l_scanlines_interlace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_writer.html#af246a932bce78c224afbffc8e917ac26"];
+  Node16 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="Python GUI.lib.png.Writer.array\l_scanlines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1lib_1_1png_1_1_writer.html#a9477e181c530d49a19817cebc211e2d0"];
+  Node15 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

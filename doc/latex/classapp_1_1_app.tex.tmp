@@ -1,0 +1,164 @@
+\hypertarget{classapp_1_1_app}{}\section{app.\+App Class Reference}
+\label{classapp_1_1_app}\index{app.\+App@{app.\+App}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classapp_1_1_app_a7ebfdd74ff42ca9b5c1dd6383b4641f8}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self, gui)
+\item 
+def \hyperlink{classapp_1_1_app_a12410afa08ea83e0e75958316f3bfa44}{add} (self, button)
+\item 
+def \hyperlink{classapp_1_1_app_a5fa0636a03dcc38bf7bcf219d27167ca}{submit} (self, button)
+\item 
+def \hyperlink{classapp_1_1_app_a11694b61d1b324b5628ca9b110990451}{delete} (self)
+\item 
+def \hyperlink{classapp_1_1_app_a36fc2b881076006c2f949cbd524638e8}{select} (self, elementtype, elementid)
+\item 
+def \hyperlink{classapp_1_1_app_aa62a8da887512bee037e88bb0dab9b4f}{update\+Info} (self)
+\item 
+def \hyperlink{classapp_1_1_app_a8f0a02d26fd64277f30a700190bdc9f2}{update\+Chart} (self)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classapp_1_1_app_a7e1b425e21cce7dcb596d72fad3c3282}\label{classapp_1_1_app_a7e1b425e21cce7dcb596d72fad3c3282}} 
+\hyperlink{classapp_1_1_app_a7e1b425e21cce7dcb596d72fad3c3282}{app} = None
+\begin{DoxyCompactList}\small\item\em app\+Jar G\+UI object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classapp_1_1_app_a9de028570fbb7ebc55c4e60f90bd1a38}\label{classapp_1_1_app_a9de028570fbb7ebc55c4e60f90bd1a38}} 
+def \hyperlink{classapp_1_1_app_a9de028570fbb7ebc55c4e60f90bd1a38}{chart} = \hyperlink{classchart_1_1_chart}{chart.\+Chart}(\hyperlink{classapp_1_1_app_a7e1b425e21cce7dcb596d72fad3c3282}{app})
+\begin{DoxyCompactList}\small\item\em Chart object. \end{DoxyCompactList}\item 
+dictionary \hyperlink{classapp_1_1_app_a34fc4a7d78896ff3d20612ee6bb9e169}{elements} = \{\char`\"{}Airport\char`\"{} \+: \{\}, \char`\"{}Airplane\char`\"{} \+: \{\}, \char`\"{}Flight\char`\"{} \+: \{\}\}
+\begin{DoxyCompactList}\small\item\em Sets of existing elements. \end{DoxyCompactList}\item 
+dictionary \hyperlink{classapp_1_1_app_a5d704ba832744570b49e86417960c071}{info}
+\begin{DoxyCompactList}\small\item\em Relevant info of the selected object to show on the selection panel. \end{DoxyCompactList}\item 
+\hyperlink{classapp_1_1_app_a4cdfedd89ae2ab7854c7062dcb388acd}{selection} = None
+\begin{DoxyCompactList}\small\item\em Current selected object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}Class of the user interface.\end{DoxyVerb}
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_a7ebfdd74ff42ca9b5c1dd6383b4641f8}\label{classapp_1_1_app_a7ebfdd74ff42ca9b5c1dd6383b4641f8}} 
+\index{app\+::\+App@{app\+::\+App}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def app.\+App.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{gui }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}GUI initialization\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 0
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_a12410afa08ea83e0e75958316f3bfa44}\label{classapp_1_1_app_a12410afa08ea83e0e75958316f3bfa44}} 
+\index{app\+::\+App@{app\+::\+App}!add@{add}}
+\index{add@{add}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily def app.\+App.\+add (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{button }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It launches the form window to add a new element to the map
+    @param button    button name from the panel previously pressed
+\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{classapp_1_1_app_a11694b61d1b324b5628ca9b110990451}\label{classapp_1_1_app_a11694b61d1b324b5628ca9b110990451}} 
+\index{app\+::\+App@{app\+::\+App}!delete@{delete}}
+\index{delete@{delete}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily def app.\+App.\+delete (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It deletes the selected element from the chart\end{DoxyVerb}
+ \mbox{\Hypertarget{classapp_1_1_app_a36fc2b881076006c2f949cbd524638e8}\label{classapp_1_1_app_a36fc2b881076006c2f949cbd524638e8}} 
+\index{app\+::\+App@{app\+::\+App}!select@{select}}
+\index{select@{select}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{select()}{select()}}
+{\footnotesize\ttfamily def app.\+App.\+select (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{elementtype,  }\item[{}]{elementid }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It selects an element from the chart to show information on the panel
+    @param elementtype    Class of the element
+    @param elementid      ID of the element
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classapp_1_1_app_a5fa0636a03dcc38bf7bcf219d27167ca}\label{classapp_1_1_app_a5fa0636a03dcc38bf7bcf219d27167ca}} 
+\index{app\+::\+App@{app\+::\+App}!submit@{submit}}
+\index{submit@{submit}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{submit()}{submit()}}
+{\footnotesize\ttfamily def app.\+App.\+submit (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{button }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It adds a new element to the chart according to the data filled in the form window
+    @param button    button name from the form window previously pressed
+\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{classapp_1_1_app_a8f0a02d26fd64277f30a700190bdc9f2}\label{classapp_1_1_app_a8f0a02d26fd64277f30a700190bdc9f2}} 
+\index{app\+::\+App@{app\+::\+App}!update\+Chart@{update\+Chart}}
+\index{update\+Chart@{update\+Chart}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{update\+Chart()}{updateChart()}}
+{\footnotesize\ttfamily def app.\+App.\+update\+Chart (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It refreshes the chart.\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{classapp_1_1_app_aa62a8da887512bee037e88bb0dab9b4f}\label{classapp_1_1_app_aa62a8da887512bee037e88bb0dab9b4f}} 
+\index{app\+::\+App@{app\+::\+App}!update\+Info@{update\+Info}}
+\index{update\+Info@{update\+Info}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{update\+Info()}{updateInfo()}}
+{\footnotesize\ttfamily def app.\+App.\+update\+Info (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It updates the info panel.\end{DoxyVerb}
+ 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_a34fc4a7d78896ff3d20612ee6bb9e169}\label{classapp_1_1_app_a34fc4a7d78896ff3d20612ee6bb9e169}} 
+\index{app\+::\+App@{app\+::\+App}!elements@{elements}}
+\index{elements@{elements}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{elements}{elements}}
+{\footnotesize\ttfamily app.\+App.\+elements = \{\char`\"{}Airport\char`\"{} \+: \{\}, \char`\"{}Airplane\char`\"{} \+: \{\}, \char`\"{}Flight\char`\"{} \+: \{\}\}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Sets of existing elements. 
+
+\mbox{\Hypertarget{classapp_1_1_app_a5d704ba832744570b49e86417960c071}\label{classapp_1_1_app_a5d704ba832744570b49e86417960c071}} 
+\index{app\+::\+App@{app\+::\+App}!info@{info}}
+\index{info@{info}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{info}{info}}
+{\footnotesize\ttfamily app.\+App.\+info\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=  \{\textcolor{stringliteral}{"Airport"}: \{
+                \textcolor{stringliteral}{"id"}: \{\textcolor{stringliteral}{"label"}: \textcolor{stringliteral}{"Airport code"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"text"}\},
+                \textcolor{stringliteral}{"location"}: \{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Location"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"coordinates"}\}\},
+            \textcolor{stringliteral}{"Airplane"}: \{
+                \textcolor{stringliteral}{"id"}: \{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Plate"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"text"}\},
+                \textcolor{stringliteral}{"manufacturer"}:\{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Manufacturer"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"text"}\},
+                \textcolor{stringliteral}{"model"}:\{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Model"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"text"}\},
+                \textcolor{stringliteral}{"position"}:\{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Position"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"coordinates"}\},
+                \textcolor{stringliteral}{"speed"}: \{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Average speed"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"number"}\}\},
+            \textcolor{stringliteral}{"Flight"}: \{
+                \textcolor{stringliteral}{"id"}: \{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Flight number"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"text"}\},
+                \textcolor{stringliteral}{"airplane"}: \{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Airplane"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"Airplane"}\},
+                \textcolor{stringliteral}{"origin"}:\{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Origin"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"Airport"}\},
+                \textcolor{stringliteral}{"destination"}:\{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Destination"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"Airport"}\},
+                \textcolor{stringliteral}{"departure"}:\{\textcolor{stringliteral}{"label"}:\textcolor{stringliteral}{"Departure time"}, \textcolor{stringliteral}{"type"}: \textcolor{stringliteral}{"datetime"}\}\}\}
+\end{DoxyCode}
+
+
+Relevant info of the selected object to show on the selection panel. 
+
+\mbox{\Hypertarget{classapp_1_1_app_a4cdfedd89ae2ab7854c7062dcb388acd}\label{classapp_1_1_app_a4cdfedd89ae2ab7854c7062dcb388acd}} 
+\index{app\+::\+App@{app\+::\+App}!selection@{selection}}
+\index{selection@{selection}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{selection}{selection}}
+{\footnotesize\ttfamily app.\+App.\+selection = None\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Current selected object. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/app.\+py\end{DoxyCompactItemize}

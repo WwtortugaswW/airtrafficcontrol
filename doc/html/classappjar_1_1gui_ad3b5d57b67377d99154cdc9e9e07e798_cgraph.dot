@@ -1,0 +1,25 @@
+digraph "appjar.gui.clearAllOptionBoxes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node927 [label="appjar.gui.clearAllOption\lBoxes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node927 -> Node928 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node928 [label="appjar.gui.clearOptionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a0db4ea223b08f1db3925b7b42c324de7"];
+  Node928 -> Node929 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node929 [label="appjar.gui.setOptionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a1265f35528c0da179bf0ef8568fdf463"];
+  Node929 -> Node930 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node930 [label="appjar.gui.warn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a3ab0139430263b1913b4078cf34e7098"];
+  Node929 -> Node931 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node931 [label="appjar.gui.changeOptionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a974171d577bb5819246fb5c15c1e4fa8"];
+  Node931 -> Node932 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node932 [label="appjar.gui._configOption\lBoxList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#adf8f2708fccc3dd7aabf89a51b99c84a"];
+  Node931 -> Node930 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node931 -> Node933 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node933 [label="appjar.gui._buildTickOptionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a2972ad12f09ae0257127f51a7fa3b214"];
+  Node931 -> Node934 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node934 [label="appjar.gui._disableOption\lBoxSeparators",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classappjar_1_1gui.html#a37d662a79a1c51f5a89cabec8c2600e9"];
+  Node931 -> Node929 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node929 -> Node929 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node927 -> Node934 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

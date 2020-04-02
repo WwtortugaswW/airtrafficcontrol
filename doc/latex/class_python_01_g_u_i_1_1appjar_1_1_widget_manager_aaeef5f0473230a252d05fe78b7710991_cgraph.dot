@@ -1,0 +1,27 @@
+digraph "Python GUI.appjar.WidgetManager.check"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="Python GUI.appjar.Widget\lManager.check",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="Python GUI.appjar.Widget\lManager.group",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1_widget_manager.html#a6fa4043a5945618a9ded50173f06599d"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="Python GUI.appjar.Widget\lManager.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1_widget_manager.html#ac5dabd1d3e7ea54577b0f0834ee7cf84"];
+  Node10 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="Python GUI.appjar.Widget\lManager.log",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1_widget_manager.html#a0fed8387800a09e64d62a47819da54af"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="Python GUI.appjar.Widget\lManager.verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1_widget_manager.html#ad1027d466e6e667e6310f13fa73df2c8"];
+  Node12 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="Python GUI.appjar.Widget\lManager.get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1_widget_manager.html#a19270fe453a4d39780d54d5a076180e8"];
+  Node13 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="Python GUI.appjar.Widget\lManager.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1_widget_manager.html#acbedce7adb2442054dca32e44533c4c3"];
+  Node14 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node14 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 -> Node15 [color="midnightblue",fontsize="10",style="solid"];
+  Node15 [label="Python GUI.appjar.Widget\lManager.destroyWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1_widget_manager.html#a1d21f66abbcd764c7c36b7b949d51c0e"];
+}
