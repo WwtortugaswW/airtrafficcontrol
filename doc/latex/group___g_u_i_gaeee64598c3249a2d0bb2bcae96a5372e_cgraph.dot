@@ -1,0 +1,29 @@
+digraph "app.App.loadSelector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="app.App.loadSelector",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid"];
+  Node25 [label="app.App.submitSelector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___g_u_i.html#gae9b8c9daf8c301d4ff545148989984b3"];
+  Node25 -> Node26 [color="midnightblue",fontsize="10",style="solid"];
+  Node26 [label="app.App.select",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___g_u_i.html#gaa1a0515399dab21f9b6e5c075f549312"];
+  Node26 -> Node27 [color="midnightblue",fontsize="10",style="solid"];
+  Node27 [label="app.App.delete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___g_u_i.html#ga11694b61d1b324b5628ca9b110990451"];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid"];
+  Node28 [label="app.App.updateChart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___g_u_i.html#ga8f0a02d26fd64277f30a700190bdc9f2"];
+  Node28 -> Node29 [color="midnightblue",fontsize="10",style="solid"];
+  Node29 [label="app.App.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___g_u_i.html#ga12410afa08ea83e0e75958316f3bfa44"];
+  Node29 -> Node29 [color="midnightblue",fontsize="10",style="solid"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid"];
+  Node30 [label="app.App.submit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___g_u_i.html#ga5fa0636a03dcc38bf7bcf219d27167ca"];
+  Node30 -> Node30 [color="midnightblue",fontsize="10",style="solid"];
+  Node30 -> Node29 [color="midnightblue",fontsize="10",style="solid"];
+  Node30 -> Node31 [color="midnightblue",fontsize="10",style="solid"];
+  Node31 [label="app.App.updateElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___g_u_i.html#ga9ff44df3681a65aeaf309207a69c17bb"];
+  Node30 -> Node26 [color="midnightblue",fontsize="10",style="solid"];
+  Node27 -> Node31 [color="midnightblue",fontsize="10",style="solid"];
+  Node27 -> Node26 [color="midnightblue",fontsize="10",style="solid"];
+  Node26 -> Node32 [color="midnightblue",fontsize="10",style="solid"];
+  Node32 [label="app.App.start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___g_u_i.html#ga9e6225026b8708f880e1f4679ca94eec"];
+}

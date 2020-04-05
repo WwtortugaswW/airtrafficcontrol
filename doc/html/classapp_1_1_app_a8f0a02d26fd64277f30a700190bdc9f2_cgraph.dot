@@ -1,0 +1,13 @@
+digraph "app.App.updateChart"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="app.App.updateChart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="app.App.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapp_1_1_app.html#a12410afa08ea83e0e75958316f3bfa44"];
+  Node11 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="app.App.submit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapp_1_1_app.html#a5fa0636a03dcc38bf7bcf219d27167ca"];
+  Node12 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
