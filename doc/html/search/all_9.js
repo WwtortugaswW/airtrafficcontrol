@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['updatechart',['updateChart',['../classapp_1_1_app.html#a8f0a02d26fd64277f30a700190bdc9f2',1,'app::App']]],
-  ['updateinfo',['updateInfo',['../classapp_1_1_app.html#aa62a8da887512bee037e88bb0dab9b4f',1,'app::App']]]
+  ['object',['Object',['../classcore_1_1_object.html',1,'core']]],
+  ['output',['Output',['../classapp_1_1_app_1_1_output.html',1,'app::App']]],
+  ['outputs',['outputs',['../group___g_u_i.html#gae2e6dcf1628c915d04b82f391253655f',1,'app::App']]]
 ];

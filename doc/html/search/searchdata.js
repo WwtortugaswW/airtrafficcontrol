@@ -1,10 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: "_acdefilsu",
-  1: "ac",
+  0: "_acdefilnosuw",
+  1: "acfio",
   2: "ac",
-  3: "_acdsu",
-  4: "acefils"
+  3: "_acdlsu",
+  4: "acdefilnos",
+  5: "w"
 };
 
 var indexSectionNames =
@@ -13,7 +14,8 @@ var indexSectionNames =
   1: "classes",
   2: "namespaces",
   3: "functions",
-  4: "variables"
+  4: "variables",
+  5: "groups"
 };
 
 var indexSectionLabels =
@@ -22,6 +24,7 @@ var indexSectionLabels =
   1: "Classes",
   2: "Namespaces",
   3: "Functions",
-  4: "Variables"
+  4: "Variables",
+  5: "Modules"
 };
 

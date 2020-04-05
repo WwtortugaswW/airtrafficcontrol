@@ -1,9 +1,0 @@
-digraph "Python GUI.appjar.gui.getAllTextAreas"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1309 [label="Python GUI.appjar.gui.get\lAllTextAreas",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1309 -> Node1310 [color="midnightblue",fontsize="10",style="solid"];
-  Node1310 [label="Python GUI.appjar.gui.get\lTextArea",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#afa588273483617b683ef7fd0a75b117f"];
-}

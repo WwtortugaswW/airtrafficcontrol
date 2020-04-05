@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['focus',['focus',['../classchart_1_1_chart.html#ab776802bbb212893c7ec9639ddb95ea7',1,'chart::Chart']]]
+  ['elements',['elements',['../classapp_1_1_app.html#a34fc4a7d78896ff3d20612ee6bb9e169',1,'app::App']]]
 ];

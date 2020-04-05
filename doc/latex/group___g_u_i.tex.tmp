@@ -1,0 +1,317 @@
+\hypertarget{group___g_u_i}{}\section{widgets names}
+\label{group___g_u_i}\index{widgets names@{widgets names}}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespacechart}{chart}
+\end{DoxyCompactItemize}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classapp_1_1_app_1_1_field}{app.\+App.\+Field}
+\begin{DoxyCompactList}\small\item\em \} \end{DoxyCompactList}\item 
+class \hyperlink{classapp_1_1_app_1_1_input}{app.\+App.\+Input}
+\item 
+class \hyperlink{classapp_1_1_app_1_1_output}{app.\+App.\+Output}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___g_u_i_ga64a75d6222ef9c54ddb846ecadd21336}\label{group___g_u_i_ga64a75d6222ef9c54ddb846ecadd21336}} 
+def {\bfseries app.\+App.\+Field.\+\_\+\+\_\+init\+\_\+\+\_\+} (self, \hyperlink{group___g_u_i_ga74bf1ee16d2de49ee707cab9ecba123b}{name}, \hyperlink{group___g_u_i_gadd42fca0c131874daa29902266d514cd}{description}, \hyperlink{group___g_u_i_ga2b84546c227ee521e1a4776cd07aabe8}{fieldtype}, \hyperlink{group___g_u_i_ga6a50e1c443b963d286ed393be38e00fd}{factor}=None)
+\item 
+def \hyperlink{group___g_u_i_ga7ebfdd74ff42ca9b5c1dd6383b4641f8}{app.\+App.\+\_\+\+\_\+init\+\_\+\+\_\+} (self, gui)
+\item 
+def \hyperlink{group___g_u_i_ga12410afa08ea83e0e75958316f3bfa44}{app.\+App.\+add} (self, button)
+\item 
+def \hyperlink{group___g_u_i_ga5fa0636a03dcc38bf7bcf219d27167ca}{app.\+App.\+submit} (self, button)
+\item 
+def \hyperlink{group___g_u_i_gaa1a0515399dab21f9b6e5c075f549312}{app.\+App.\+select} (self, elementtype, ident)
+\item 
+def \hyperlink{group___g_u_i_ga9e6225026b8708f880e1f4679ca94eec}{app.\+App.\+start} (self)
+\item 
+def \hyperlink{group___g_u_i_ga11694b61d1b324b5628ca9b110990451}{app.\+App.\+delete} (self)
+\item 
+def \hyperlink{group___g_u_i_gaeee64598c3249a2d0bb2bcae96a5372e}{app.\+App.\+load\+Selector} (self)
+\item 
+def \hyperlink{group___g_u_i_gae9b8c9daf8c301d4ff545148989984b3}{app.\+App.\+submit\+Selector} (self)
+\item 
+def \hyperlink{group___g_u_i_ga8f0a02d26fd64277f30a700190bdc9f2}{app.\+App.\+update\+Chart} (self)
+\item 
+def \hyperlink{group___g_u_i_ga9ff44df3681a65aeaf309207a69c17bb}{app.\+App.\+update\+Elements} (self)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group___g_u_i_gaf0a2e70a31fc71f3c218757882011092}\label{group___g_u_i_gaf0a2e70a31fc71f3c218757882011092}} 
+string {\bfseries app.\+App.\+panel} = \char`\"{}panel\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_gacfab4731f31b0c599bb4924321eab299}\label{group___g_u_i_gacfab4731f31b0c599bb4924321eab299}} 
+string {\bfseries app.\+App.\+panel\+\_\+legend} = \char`\"{}Legend\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_gad272b2c0b2e0c527c2f50a4df5dad86f}\label{group___g_u_i_gad272b2c0b2e0c527c2f50a4df5dad86f}} 
+string {\bfseries app.\+App.\+panel\+\_\+elements} = \char`\"{}Elements\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_gae64b152de5853eb1c06532641556ed14}\label{group___g_u_i_gae64b152de5853eb1c06532641556ed14}} 
+string {\bfseries app.\+App.\+panel\+\_\+elements\+\_\+add} = \char`\"{}add\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_gafa6932da315bf5d2420c40cce03d48c6}\label{group___g_u_i_gafa6932da315bf5d2420c40cce03d48c6}} 
+string {\bfseries app.\+App.\+panel\+\_\+elements\+\_\+add\+\_\+error} = \char`\"{}errorbox\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_ga02d8bb6a6b717a8fcec26c999fc674cd}\label{group___g_u_i_ga02d8bb6a6b717a8fcec26c999fc674cd}} 
+string {\bfseries app.\+App.\+panel\+\_\+actions} = \char`\"{}Actions\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_ga10264027e14962e220eedfc1c0c0a0d5}\label{group___g_u_i_ga10264027e14962e220eedfc1c0c0a0d5}} 
+string {\bfseries app.\+App.\+panel\+\_\+actions\+\_\+delete} = \char`\"{}delete\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_ga95b020ebcb48fde774fe73bcffa8a538}\label{group___g_u_i_ga95b020ebcb48fde774fe73bcffa8a538}} 
+string {\bfseries app.\+App.\+panel\+\_\+actions\+\_\+start} = \char`\"{}start\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_gadc35495722a7f3f49db74a02653d28b0}\label{group___g_u_i_gadc35495722a7f3f49db74a02653d28b0}} 
+string {\bfseries app.\+App.\+panel\+\_\+elements\+\_\+select} = \char`\"{}select\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_ga4baf1be9e6d444e67d433561465f100c}\label{group___g_u_i_ga4baf1be9e6d444e67d433561465f100c}} 
+string {\bfseries app.\+App.\+panel\+\_\+elements\+\_\+select\+\_\+selector} = \char`\"{}selector\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_gab77614285ffc4bfdfddc6788f4897106}\label{group___g_u_i_gab77614285ffc4bfdfddc6788f4897106}} 
+string {\bfseries app.\+App.\+panel\+\_\+elements\+\_\+select\+\_\+selector\+\_\+elementtype} = \char`\"{}elementtype\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_gacb8c6bb972459d6b46312055c4f57bb6}\label{group___g_u_i_gacb8c6bb972459d6b46312055c4f57bb6}} 
+string {\bfseries app.\+App.\+panel\+\_\+elements\+\_\+select\+\_\+selector\+\_\+ident} = \char`\"{}ident\char`\"{}
+\item 
+\mbox{\Hypertarget{group___g_u_i_ga613c54adc3f3fe8e856b83cdbf9d3a10}\label{group___g_u_i_ga613c54adc3f3fe8e856b83cdbf9d3a10}} 
+string {\bfseries app.\+App.\+panel\+\_\+info} = \char`\"{}Selection\char`\"{}
+\item 
+\hyperlink{group___g_u_i_ga74bf1ee16d2de49ee707cab9ecba123b}{app.\+App.\+Field.\+name} = None
+\begin{DoxyCompactList}\small\item\em Unique name which identifies the form field and the class attribute or method. \end{DoxyCompactList}\item 
+\hyperlink{group___g_u_i_gadd42fca0c131874daa29902266d514cd}{app.\+App.\+Field.\+description} = None
+\begin{DoxyCompactList}\small\item\em \hyperlink{classapp_1_1_app_1_1_field}{Field} description which will show on the user interface. \end{DoxyCompactList}\item 
+string \hyperlink{group___g_u_i_ga2b84546c227ee521e1a4776cd07aabe8}{app.\+App.\+Field.\+fieldtype} = \char`\"{}text\char`\"{}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classapp_1_1_app_1_1_field}{Field} type (text, number or class name). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___g_u_i_ga6a50e1c443b963d286ed393be38e00fd}\label{group___g_u_i_ga6a50e1c443b963d286ed393be38e00fd}} 
+\hyperlink{group___g_u_i_ga6a50e1c443b963d286ed393be38e00fd}{app.\+App.\+Field.\+factor} = None
+\begin{DoxyCompactList}\small\item\em If field type is number, factor multiplies the field value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___g_u_i_ga2b84546c227ee521e1a4776cd07aabe8}\label{group___g_u_i_ga2b84546c227ee521e1a4776cd07aabe8}} 
+{\bfseries app.\+App.\+Field.\+fieldtype}
+\item 
+dictionary \hyperlink{group___g_u_i_ga3bf8c9ac0786fd812dfca551db862795}{app.\+App.\+inputs}
+\begin{DoxyCompactList}\small\item\em Relevant fields to create a new object. \end{DoxyCompactList}\item 
+dictionary \hyperlink{group___g_u_i_gae2e6dcf1628c915d04b82f391253655f}{app.\+App.\+outputs}
+\begin{DoxyCompactList}\small\item\em Relevant outputs of the selected object to show on the selection panel. \end{DoxyCompactList}\item 
+\hyperlink{group___g_u_i_ga4cdfedd89ae2ab7854c7062dcb388acd}{app.\+App.\+selection} = None
+\begin{DoxyCompactList}\small\item\em Current selected object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___g_u_i_ga7e1b425e21cce7dcb596d72fad3c3282}\label{group___g_u_i_ga7e1b425e21cce7dcb596d72fad3c3282}} 
+\hyperlink{group___g_u_i_ga7e1b425e21cce7dcb596d72fad3c3282}{app.\+App.\+app} = None
+\begin{DoxyCompactList}\small\item\em app\+Jar G\+UI object \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___g_u_i_ga9de028570fbb7ebc55c4e60f90bd1a38}\label{group___g_u_i_ga9de028570fbb7ebc55c4e60f90bd1a38}} 
+{\bfseries app.\+App.\+chart}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___g_u_i_ga7ebfdd74ff42ca9b5c1dd6383b4641f8}\label{group___g_u_i_ga7ebfdd74ff42ca9b5c1dd6383b4641f8}} 
+\index{widgets names@{widgets names}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def app.\+App.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{gui }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}GUI initialization.\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 0
+\mbox{\Hypertarget{group___g_u_i_ga12410afa08ea83e0e75958316f3bfa44}\label{group___g_u_i_ga12410afa08ea83e0e75958316f3bfa44}} 
+\index{widgets names@{widgets names}!add@{add}}
+\index{add@{add}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily def app.\+App.\+add (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{button }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It launches the form window to add a new element to the map.
+    @param button    button name from the panel previously pressed
+\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{group___g_u_i_ga11694b61d1b324b5628ca9b110990451}\label{group___g_u_i_ga11694b61d1b324b5628ca9b110990451}} 
+\index{widgets names@{widgets names}!delete@{delete}}
+\index{delete@{delete}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily def app.\+App.\+delete (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It deletes the selected element from the chart.\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{group___g_u_i_gaeee64598c3249a2d0bb2bcae96a5372e}\label{group___g_u_i_gaeee64598c3249a2d0bb2bcae96a5372e}} 
+\index{widgets names@{widgets names}!load\+Selector@{load\+Selector}}
+\index{load\+Selector@{load\+Selector}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{load\+Selector()}{loadSelector()}}
+{\footnotesize\ttfamily def app.\+App.\+load\+Selector (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It loads the selector window.\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{group___g_u_i_gaa1a0515399dab21f9b6e5c075f549312}\label{group___g_u_i_gaa1a0515399dab21f9b6e5c075f549312}} 
+\index{widgets names@{widgets names}!select@{select}}
+\index{select@{select}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{select()}{select()}}
+{\footnotesize\ttfamily def app.\+App.\+select (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{elementtype,  }\item[{}]{ident }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It selects an element to show information on the selection panel.
+    @param elementtype    element type
+    @param ident          element id
+\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{group___g_u_i_ga9e6225026b8708f880e1f4679ca94eec}\label{group___g_u_i_ga9e6225026b8708f880e1f4679ca94eec}} 
+\index{widgets names@{widgets names}!start@{start}}
+\index{start@{start}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily def app.\+App.\+start (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It starts a flight.\end{DoxyVerb}
+ \mbox{\Hypertarget{group___g_u_i_ga5fa0636a03dcc38bf7bcf219d27167ca}\label{group___g_u_i_ga5fa0636a03dcc38bf7bcf219d27167ca}} 
+\index{widgets names@{widgets names}!submit@{submit}}
+\index{submit@{submit}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{submit()}{submit()}}
+{\footnotesize\ttfamily def app.\+App.\+submit (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{button }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It adds a new element to the chart according to the data filled in the form window.
+    @param button    button name from the form window previously pressed
+\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{group___g_u_i_gae9b8c9daf8c301d4ff545148989984b3}\label{group___g_u_i_gae9b8c9daf8c301d4ff545148989984b3}} 
+\index{widgets names@{widgets names}!submit\+Selector@{submit\+Selector}}
+\index{submit\+Selector@{submit\+Selector}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{submit\+Selector()}{submitSelector()}}
+{\footnotesize\ttfamily def app.\+App.\+submit\+Selector (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It handles the selection. It is called when pressing the submit button on the selector window.\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{group___g_u_i_ga8f0a02d26fd64277f30a700190bdc9f2}\label{group___g_u_i_ga8f0a02d26fd64277f30a700190bdc9f2}} 
+\index{widgets names@{widgets names}!update\+Chart@{update\+Chart}}
+\index{update\+Chart@{update\+Chart}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{update\+Chart()}{updateChart()}}
+{\footnotesize\ttfamily def app.\+App.\+update\+Chart (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It refreshes the chart.\end{DoxyVerb}
+ Here is the call graph for this function\+:
+% FIG 7
+\mbox{\Hypertarget{group___g_u_i_ga9ff44df3681a65aeaf309207a69c17bb}\label{group___g_u_i_ga9ff44df3681a65aeaf309207a69c17bb}} 
+\index{widgets names@{widgets names}!update\+Elements@{update\+Elements}}
+\index{update\+Elements@{update\+Elements}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{update\+Elements()}{updateElements()}}
+{\footnotesize\ttfamily def app.\+App.\+update\+Elements (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}It updates the elements panel.\end{DoxyVerb}
+ 
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{group___g_u_i_gadd42fca0c131874daa29902266d514cd}\label{group___g_u_i_gadd42fca0c131874daa29902266d514cd}} 
+\index{widgets names@{widgets names}!description@{description}}
+\index{description@{description}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{description}{description}}
+{\footnotesize\ttfamily app.\+App.\+Field.\+description = None\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{classapp_1_1_app_1_1_field}{Field} description which will show on the user interface. 
+
+\mbox{\Hypertarget{group___g_u_i_ga2b84546c227ee521e1a4776cd07aabe8}\label{group___g_u_i_ga2b84546c227ee521e1a4776cd07aabe8}} 
+\index{widgets names@{widgets names}!fieldtype@{fieldtype}}
+\index{fieldtype@{fieldtype}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{fieldtype}{fieldtype}}
+{\footnotesize\ttfamily app.\+App.\+Field.\+fieldtype = \char`\"{}text\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{classapp_1_1_app_1_1_field}{Field} type (text, number or class name). 
+
+It corresponds to a list if the field is a list of values. \mbox{\Hypertarget{group___g_u_i_ga3bf8c9ac0786fd812dfca551db862795}\label{group___g_u_i_ga3bf8c9ac0786fd812dfca551db862795}} 
+\index{widgets names@{widgets names}!inputs@{inputs}}
+\index{inputs@{inputs}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{inputs}{inputs}}
+{\footnotesize\ttfamily app.\+App.\+inputs\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=  \{Airport.\_\_name\_\_: \{
+                \textcolor{stringliteral}{"ident"}:Input(\textcolor{stringliteral}{"ident"}, \textcolor{stringliteral}{"Airport code"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"location"}:Input(\textcolor{stringliteral}{"location"}, \textcolor{stringliteral}{"Location"}, [
+                    Input(\textcolor{stringliteral}{"longitude"}, \textcolor{stringliteral}{"Longitude [°]"}, \textcolor{stringliteral}{"number"}),
+                    Input(\textcolor{stringliteral}{"latitude"}, \textcolor{stringliteral}{"Latitude [°]"}, \textcolor{stringliteral}{"number"})]),
+                \textcolor{stringliteral}{"industry"}:Input(\textcolor{stringliteral}{"industry"}, \textcolor{stringliteral}{"Industry"}, \textcolor{stringliteral}{"Industry"})\},
+              Airplane.\_\_name\_\_: \{
+                \textcolor{stringliteral}{"ident"}:Input(\textcolor{stringliteral}{"ident"}, \textcolor{stringliteral}{"Plate"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"location"}:Input(\textcolor{stringliteral}{"location"}, \textcolor{stringliteral}{"Location"}, Airport.\_\_name\_\_),
+                \textcolor{stringliteral}{"industry"}:Input(\textcolor{stringliteral}{"industry"}, \textcolor{stringliteral}{"Industry"}, \textcolor{stringliteral}{"Industry"}),
+                \textcolor{stringliteral}{"manufacturer"}:Input(\textcolor{stringliteral}{"manufacturer"}, \textcolor{stringliteral}{"Manufacturer"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"model"}:Input(\textcolor{stringliteral}{"model"}, \textcolor{stringliteral}{"Model"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"speed"}:Input(\textcolor{stringliteral}{"speed"}, \textcolor{stringliteral}{"Average speed [km/h]"}, \textcolor{stringliteral}{"number"}, factor=1 / 3.6)\},
+              Flight.\_\_name\_\_: \{
+                \textcolor{stringliteral}{"ident"}:Input(\textcolor{stringliteral}{"ident"}, \textcolor{stringliteral}{"Flight number"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"airplane"}:Input(\textcolor{stringliteral}{"airplane"}, Airplane.\_\_name\_\_, Airplane.\_\_name\_\_),
+                \textcolor{stringliteral}{"origin"}:Input(\textcolor{stringliteral}{"origin"}, \textcolor{stringliteral}{"Origin"}, Airport.\_\_name\_\_),
+                \textcolor{stringliteral}{"destination"}:Input(\textcolor{stringliteral}{"destination"}, \textcolor{stringliteral}{"Destination"}, Airport.\_\_name\_\_)\}\}
+\end{DoxyCode}
+
+
+Relevant fields to create a new object. 
+
+\mbox{\Hypertarget{group___g_u_i_ga74bf1ee16d2de49ee707cab9ecba123b}\label{group___g_u_i_ga74bf1ee16d2de49ee707cab9ecba123b}} 
+\index{widgets names@{widgets names}!name@{name}}
+\index{name@{name}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily app.\+App.\+Field.\+name = None\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Unique name which identifies the form field and the class attribute or method. 
+
+\mbox{\Hypertarget{group___g_u_i_gae2e6dcf1628c915d04b82f391253655f}\label{group___g_u_i_gae2e6dcf1628c915d04b82f391253655f}} 
+\index{widgets names@{widgets names}!outputs@{outputs}}
+\index{outputs@{outputs}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{outputs}{outputs}}
+{\footnotesize\ttfamily app.\+App.\+outputs\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=  \{Airport.\_\_name\_\_: \{
+                \textcolor{stringliteral}{"ident"}:Output(\textcolor{stringliteral}{"ident"}, \textcolor{stringliteral}{"Plate"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"location"}:Output(\textcolor{stringliteral}{"location"}, \textcolor{stringliteral}{"Location"}, [
+                    Output(\textcolor{stringliteral}{"longitude"}, \textcolor{stringliteral}{"Longitude [°]"}, \textcolor{stringliteral}{"number"}),
+                    Output(\textcolor{stringliteral}{"latitude"}, \textcolor{stringliteral}{"Latitude [°]"}, \textcolor{stringliteral}{"number"})]),
+                \textcolor{stringliteral}{"industry"}:Output(\textcolor{stringliteral}{"industry"}, \textcolor{stringliteral}{"Industry"}, \textcolor{stringliteral}{"Industry"})\},
+               Airplane.\_\_name\_\_: \{
+                \textcolor{stringliteral}{"ident"}:Output(\textcolor{stringliteral}{"ident"}, \textcolor{stringliteral}{"Plate"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"location"}:Output(\textcolor{stringliteral}{"location"}, \textcolor{stringliteral}{"Location"}, [
+                    Output(\textcolor{stringliteral}{"longitude"}, \textcolor{stringliteral}{"Longitude [°]"}, \textcolor{stringliteral}{"number"}),
+                    Output(\textcolor{stringliteral}{"latitude"}, \textcolor{stringliteral}{"Latitude [°]"}, \textcolor{stringliteral}{"number"})]),
+                \textcolor{stringliteral}{"industry"}:Output(\textcolor{stringliteral}{"industry"}, \textcolor{stringliteral}{"Industry"}, \textcolor{stringliteral}{"Industry"}),
+                \textcolor{stringliteral}{"manufacturer"}:Output(\textcolor{stringliteral}{"manufacturer"}, \textcolor{stringliteral}{"Manufacturer"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"model"}:Output(\textcolor{stringliteral}{"model"}, \textcolor{stringliteral}{"Model"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"speed"}:Output(\textcolor{stringliteral}{"speed"}, \textcolor{stringliteral}{"Average speed [km/h]"}, \textcolor{stringliteral}{"number"}, factor=3.6)\},
+               Flight.\_\_name\_\_: \{
+                \textcolor{stringliteral}{"ident"}:Output(\textcolor{stringliteral}{"ident"}, \textcolor{stringliteral}{"Flight number"}, \textcolor{stringliteral}{"text"}),
+                \textcolor{stringliteral}{"airplane"}:Output(\textcolor{stringliteral}{"airplane"}, Airplane.\_\_name\_\_, Airplane.\_\_name\_\_),
+                \textcolor{stringliteral}{"origin"}:Output(\textcolor{stringliteral}{"origin"}, \textcolor{stringliteral}{"Origin"}, Airport.\_\_name\_\_),
+                \textcolor{stringliteral}{"destination"}:Output(\textcolor{stringliteral}{"destination"}, \textcolor{stringliteral}{"Destination"}, Airport.\_\_name\_\_),
+                \textcolor{stringliteral}{"calculateDistance"}:Output(\textcolor{stringliteral}{"distance"}, \textcolor{stringliteral}{"Total distance [km]"}, \textcolor{stringliteral}{"number"}, factor=1E3),
+                \textcolor{stringliteral}{"calculateTime"}:Output(\textcolor{stringliteral}{"time"}, \textcolor{stringliteral}{"Total time [h]"}, \textcolor{stringliteral}{"number"}, factor=60 * 60),
+                \textcolor{stringliteral}{"calculateETA"}:Output(\textcolor{stringliteral}{"eta"}, \textcolor{stringliteral}{"Time to arrival [h]"}, \textcolor{stringliteral}{"number"}, factor=60 * 60)\}\}
+\end{DoxyCode}
+
+
+Relevant outputs of the selected object to show on the selection panel. 
+
+\mbox{\Hypertarget{group___g_u_i_ga4cdfedd89ae2ab7854c7062dcb388acd}\label{group___g_u_i_ga4cdfedd89ae2ab7854c7062dcb388acd}} 
+\index{widgets names@{widgets names}!selection@{selection}}
+\index{selection@{selection}!widgets names@{widgets names}}
+\subsubsection{\texorpdfstring{selection}{selection}}
+{\footnotesize\ttfamily app.\+App.\+selection = None\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Current selected object. 
+

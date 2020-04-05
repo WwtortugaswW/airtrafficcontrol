@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['legend',['legend',['../classchart_1_1_chart.html#aa86da6b6e5597272d03d109491a380d0',1,'chart::Chart']]]
+  ['inputs',['inputs',['../group___g_u_i.html#ga3bf8c9ac0786fd812dfca551db862795',1,'app::App']]]
 ];

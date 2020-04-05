@@ -295,7 +295,7 @@ class gui(object):
         if isinstance(x, UNIVERSAL_STRING) and x.lower() in ['c', 'center', 'centre']: x = dims["x"]
         if isinstance(y, UNIVERSAL_STRING) and y.lower() in ['c', 'center', 'centre']: y = dims["y"]
 
-        # move the window up a bit if requested
+        # elapse the window up a bit if requested
         y = y - up if up < y else 0
 
         # fix any out of bounds positions
@@ -1211,8 +1211,8 @@ class gui(object):
         def dnd_motion(self, source, event):
             gui.trace("<<WIDGET.dnd_motion>> %s", widget)
             XY = gui.MOUSE_POS_IN_WIDGET(self,event)
-            # move the dragged object
-            source.move(self, XY)
+            # elapse the dragged object
+            source.elapse(self, XY)
 
         def keepWidget(self, title, name):
             if self.drop_function is not None:
@@ -1663,7 +1663,7 @@ class gui(object):
         for handler in logging.root.handlers[:]:
             logging.root.removeHandler(handler)
         logging.basicConfig(level=logging.INFO, filename=fileName, format='%(asctime)s %(name)s:%(levelname)s: %(message)s')
-        gui.info("Switched to logFile: %s", fileName)
+        gui.inputs("Switched to logFile: %s", fileName)
 
     def _setLogFile(self, fileName):
         ''' necessary so we can access this as a property '''
@@ -1679,7 +1679,7 @@ class gui(object):
         """ main function for setting the logging level
             provide one of: INFO, DEBUG, WARNING, ERROR, CRITICAL, EXCEPTION, None """
         logging.getLogger("appJar").setLevel(getattr(logging, level.upper()))
-        gui.info("Log level changed to: %s", level)
+        gui.inputs("Log level changed to: %s", level)
 
 
     def getLogLevel(self):
@@ -1722,7 +1722,7 @@ class gui(object):
         gui.logMessage(message, "TRACE", *args)
 
     @staticmethod
-    def info(message, *args):
+    def inputs(message, *args):
         """ wrapper for logMessage - setting level to INFO """
         gui.logMessage(message, "INFO", *args)
 
@@ -1765,7 +1765,7 @@ class gui(object):
         elif level == "CRITICAL": logger.critical(msg, *args)
         elif level == "ERROR": logger.error(msg, *args)
         elif level == "WARNING": logger.warning(msg, *args)
-        elif level == "INFO": logger.info(msg, *args)
+        elif level == "INFO": logger.inputs(msg, *args)
         elif level == "DEBUG": logger.debug(msg, *args)
         elif level == "TRACE": logger.trace(msg, *args)
 
@@ -2143,7 +2143,7 @@ class gui(object):
             self.topLevel.quit()
             if not self.fastStop: self.topLevel.destroy()
             self.__class__.instantiated = False
-            gui.info("--- GUI stopped ---")
+            gui.inputs("--- GUI stopped ---")
 
     def setFastStop(self, fast=True):
         self._fastStop = fast
@@ -3511,10 +3511,10 @@ class gui(object):
                 "(self, name, collapse=False): self.removeWidgetType(" +
                 str(k) + ", name, collapse)")
             exec("gui.remove" + v + "=remove" + v)
-            exec( "def move" + v +
+            exec( "def elapse" + v +
                 "(self, name, row=None, column=0, colspan=0, rowspan=0, sticky=W+E): self.moveWidgetType(" +
                 str(k) + ", name, row, column, colspan, rowspan, sticky)")
-            exec("gui.move" + v + "=move" + v)
+            exec("gui.elapse" + v + "=elapse" + v)
 
             exec( "def empty" + v +
                 "(self, name): self._emptyContainerType(" +
@@ -6205,7 +6205,7 @@ class gui(object):
                 if value is not None: self.setOptionBox(title, index=value, value=False, callFunction=callFunction, override=override)
                 else:
                     self.clearOptionBox(title, callFunction=callFunction)
-                    gui.info("optionBox set back to its original state: %s", title)
+                    gui.inputs("optionBox set back to its original state: %s", title)
             elif mode == "toggle":
                 gui.error("Toggling optionboxes not supported: %s", title)
             elif mode == "clear":
@@ -6886,7 +6886,7 @@ class gui(object):
 # FUNCTION to manage Properties Widgets
 #####################################
 
-    def properties(self, title, value=None, *args, **kwargs):
+    def inputs(self, title, value=None, *args, **kwargs):
         """ simpleGUI - adds, sets & gets properties all in one go """
         widgKind = WIDGET_NAMES.Properties
         try: self.widgetManager.verify(widgKind, title)
@@ -7514,14 +7514,14 @@ class gui(object):
     # replace the current image, with a new one
     def getImage(self, name):
         label = self.widgetManager.get(WIDGET_NAMES.Image, name)
-        return label.image.path
+        return description.image.path
 
     def setImage(self, name, imageFile, internal=False):
         label = self.widgetManager.get(WIDGET_NAMES.Image, name)
         imageFile = self.getImagePath(imageFile)
 
         # only set the image if it's different
-        if label.image is not None and label.image.path == imageFile:
+        if label.image is not None and description.image.path == imageFile:
             self.warn("Not updating %s, %s hasn't changed." , name, imageFile)
             return
         elif imageFile is None:
@@ -7534,7 +7534,7 @@ class gui(object):
     def _populateImage(self, name, image, internal=False):
         label = self.widgetManager.get(WIDGET_NAMES.Image, name)
 
-        if label.image is not None: label.image.animating = False
+        if label.image is not None: description.image.animating = False
         label.config(image=image)
         label.config(anchor=CENTER, font=self._getContainerProperty('labelFont'))
         if not self.ttkFlag:
@@ -7550,7 +7550,7 @@ class gui(object):
             self.widgetManager.update(WIDGET_NAMES.AnimationID, name, anim_id)
 
         if not internal and label.hasMouseOver:
-            leaveImg = label.image.path
+            leaveImg = description.image.path
             label.bind("<Leave>", lambda e: self.setImage(name, leaveImg, True))
 
         # removed - keep the label the same size, and crop images
@@ -7652,7 +7652,7 @@ class gui(object):
     # size ...
     def shrinkImage(self, name, x, y=''):
         label = self.widgetManager.get(WIDGET_NAMES.Image, name)
-        image = label.image.subsample(x, y)
+        image = description.image.subsample(x, y)
 
         label.config(image=image)
         label.config(anchor=CENTER, font=self._getContainerProperty('labelFont'))
@@ -7666,7 +7666,7 @@ class gui(object):
     # 0 won't work, 1 will return the original size
     def growImage(self, name, x, y=''):
         label = self.widgetManager.get(WIDGET_NAMES.Image, name)
-        image = label.image.zoom(x, y)
+        image = description.image.zoom(x, y)
 
         label.config(image=image)
         label.config(anchor=CENTER, font=self._getContainerProperty('labelFont'))
@@ -8613,7 +8613,7 @@ class gui(object):
         ''' adds a grip, for dragging the GUI around '''
         grip = self._makeGrip()(self.getContainer())
         self._positionWidget(grip, row, column, colspan, rowspan)
-        self._addTooltip(grip, "Drag here to move", True)
+        self._addTooltip(grip, "Drag here to elapse", True)
         return grip
 
 
@@ -8926,8 +8926,8 @@ class gui(object):
     def _makeAccess(self):
         if not self.accessMade:
             def _close(): self.hideSubWindow("access_access_subwindow")
-            def _changeFg(): self.label("access_fg_colBox", bg=self.colourBox(self.getLabelBg("access_fg_colBox")))
-            def _changeBg(): self.label("access_bg_colBox", bg=self.colourBox(self.getLabelBg("access_bg_colBox")))
+            def _changeFg(): self.description("access_fg_colBox", bg=self.colourBox(self.getLabelBg("access_fg_colBox")))
+            def _changeBg(): self.description("access_bg_colBox", bg=self.colourBox(self.getLabelBg("access_bg_colBox")))
             def _settings():
                 font = {"underline":self.check("access_underline_check"), "overstrike":self.check("access_overstrike_check")}
                 font["weight"] = "bold" if self.check("access_bold_check") is True else "normal"
@@ -8965,10 +8965,10 @@ class gui(object):
                 with self.labelFrame("access_colour_labelframe", sticky="news", name="Colours") as lf:
                     if not self.ttk:
                         lf.config(padx=5, pady=5, font=self._accessFont)
-                    self.label("access_fg_text", "Foreground:", sticky="ew", anchor="w", font=self._accessFont)
-                    self.label("access_fg_colBox", "", pos=('p',1), sticky="ew", submit=_changeFg, relief="ridge", tip="Click here to set the foreground colour", font=self._accessFont, width=14)
-                    self.label("access_bg_text", "Background:", sticky="ew", anchor="w", font=self._accessFont)
-                    self.label("access_bg_colBox", "", pos=('p',1), sticky="ew", submit=_changeBg, relief="ridge", tip="Click here to set the background colour", font=self._accessFont, width=14)
+                    self.description("access_fg_text", "Foreground:", sticky="ew", anchor="w", font=self._accessFont)
+                    self.description("access_fg_colBox", "", pos=('p',1), sticky="ew", submit=_changeFg, relief="ridge", tip="Click here to set the foreground colour", font=self._accessFont, width=14)
+                    self.description("access_bg_text", "Background:", sticky="ew", anchor="w", font=self._accessFont)
+                    self.description("access_bg_colBox", "", pos=('p',1), sticky="ew", submit=_changeBg, relief="ridge", tip="Click here to set the background colour", font=self._accessFont, width=14)
                 self.sticky="se"
                 with self.frame("access_button_box"):
                     self.button("access_apply_button", _settings, name="Apply", pos=(0,0), font=self._accessFont)
@@ -8994,8 +8994,8 @@ class gui(object):
             self.check("access_overstrike_check", self.accessOrigFont["overstrike"])
             self.check("access_underline_check", self.accessOrigFont["underline"])
 
-            self.label("access_fg_colBox", bg=self.accessOrigFg)
-            self.label("access_bg_colBox", bg=self.accessOrigBg)
+            self.description("access_fg_colBox", bg=self.accessOrigFg)
+            self.description("access_bg_colBox", bg=self.accessOrigBg)
         else:
             gui.warn("Accessibility not set up yet.")
 
@@ -9034,7 +9034,7 @@ class gui(object):
 
         return kwargs
 
-    def label(self, title, value=None, *args, **kwargs):
+    def description(self, title, value=None, *args, **kwargs):
         """ simpleGUI - adds, sets & gets labels all in one go """
         widgKind = WIDGET_NAMES.Label
         kind = kwargs.pop("kind", "standard").lower().strip()
@@ -9921,12 +9921,12 @@ class gui(object):
             if self.platform in [self.MAC]:
                 def suppress(event):
                     if event.keysym == "Up":
-                        # move home
+                        # elapse home
                         event.widget.icursor(0)
                         event.widget.xview(0)
                         return "break"
                     elif event.keysym == "Down":
-                        # move end
+                        # elapse end
                         if not self.ttkFlag:
                             event.widget.icursor(END)
                             event.widget.xview(END)
@@ -12317,7 +12317,7 @@ class gui(object):
                     for key, val in attr.items():
                         text += "  " + key + ":" + val + "\n"
                     text = text[:-1]
-                    ToolTip(self.label, text, delay=500, follow_mouse=1)
+                    ToolTip(self.description, text, delay=500, follow_mouse=1)
                     ToolTip(self.canvas, text, specId=self.attrId, delay=500, follow_mouse=1)
 
             def _bindMenu(self):
@@ -12326,11 +12326,11 @@ class gui(object):
                     if gui.GET_PLATFORM() in [gui.WINDOWS, gui.LINUX]:
                         self.canvas.tag_bind(self.image_id, "<Button-3>", self._showMenu)
                         if self.hasAttr: self.canvas.tag_bind(self.attrId, "<Button-3>", self._showMenu)
-                        self.label.bind("<Button-3>", self._showMenu)
+                        self.description.bind("<Button-3>", self._showMenu)
                     else:
                         self.canvas.tag_bind(self.image_id, "<Button-2>", self._showMenu)
                         if self.hasAttr: self.canvas.tag_bind(self.attrId, "<Button-2>", self._showMenu)
-                        self.label.bind("<Button-2>", self._showMenu)
+                        self.description.bind("<Button-2>", self._showMenu)
 
             # override parent function, so that we can change the label's background colour
             def drawicon(self):
@@ -12357,9 +12357,9 @@ class gui(object):
                     self.canvas.itemconfigure(self.attrId, fill=self.fgColour)
                 try:
                     if not self.selected:
-                        self.label.config(background=self.bgColour, fg=self.fgColour)
+                        self.description.config(background=self.bgColour, fg=self.fgColour)
                     else:
-                        self.label.config(background=self.bgHColour, fg=self.fgHColour)
+                        self.description.config(background=self.bgHColour, fg=self.fgHColour)
                 except:
                     pass
 
@@ -12445,16 +12445,13 @@ class gui(object):
 
         #  EXTRA FUNCTIONS
 
-            # TODO: can only set before calling go()
             def setCanEdit(self, value=True):
                 self.canEdit = value
 
-            # TODO: can only set before calling go()
             def registerDblClick(self, title, func):
                 self.treeTitle = title
                 self.dblClickFunc = func
 
-            # TODO: can only set before calling go()
             def registerClick(self, title, func):
                 self.treeTitle = title
                 self.clickFunc = func
@@ -12605,7 +12602,7 @@ class Meter(Frame, object):
         self.drawLines(width, height, start, fin, self._value, self._colour)
         self._canv.update_idletasks()
 
-    # move the text
+    # elapse the text
     def moveText(self):
         width, height = self.getWH(self._canv)
         if hasattr(self, "_text"):
@@ -14452,14 +14449,14 @@ class SimpleTable(ScrollPane):
             if self.action is not None:
                 self.rightColumn[position+1].grid_forget()
 
-            # loop through all rows after, forget them, move them, grid them
+            # loop through all rows after, forget them, elapse them, grid them
             butCount = len(self.actionButton)
             for loop in range(position+1, len(self.cells)-1):
                 # forget the next row
                 for cell in self.cells[loop+1]:
                     cell.grid_forget()
 
-                # move data
+                # elapse data
                 self.cells[loop] = self.cells[loop+1]
 
                 # add its button
@@ -14743,14 +14740,14 @@ class SimpleTable(ScrollPane):
             gui.trace('Adding column: %s', columnNumber)
             cellCount = len(self.cells)
 
-            # move the right column, if necessary
+            # elapse the right column, if necessary
             if self.action is not None:
                 for rowPos in range(cellCount):
                     self.rightColumn[rowPos].grid_forget()
                     self.rightColumn[rowPos].grid(row=rowPos, column=self.numColumns+1, sticky=N+E+S+W)
                     self.interior.grid_columnconfigure(self.numColumns+1, weight=1)
 
-                # move the button
+                # elapse the button
                 self.ent_but.lab.grid_forget()
                 self.ent_but.lab.grid(row=cellCount, column=self.numColumns+2, sticky=N+E+S+W)
 
@@ -14759,7 +14756,7 @@ class SimpleTable(ScrollPane):
                 self.entries.append(ent)
                 self.entryProps.append({'disabled':False})
 
-            # move all columns including this position right one
+            # elapse all columns including this position right one
             for colPos in range(self.numColumns-1, columnNumber-1, -1):
                 gui.trace("Moving col %s right with %s cells", colPos, cellCount)
                 for rowPos in range(cellCount):
@@ -14808,7 +14805,7 @@ class SimpleTable(ScrollPane):
                 del self.entries[columnNumber]
                 del self.entryProps[columnNumber]
 
-            # move the remaining columns
+            # elapse the remaining columns
             for rowCount in range(cellCount):
                 row = self.cells[rowCount]
                 for colCount in range(columnNumber, len(row)):
@@ -14822,7 +14819,7 @@ class SimpleTable(ScrollPane):
                     else: val = str(val)
                     cell.gridPos = ''.join([val, "-", str(colCount)])
 
-            # move the buttons
+            # elapse the buttons
             if self.action is not None:
                 for rowPos in range(cellCount):
                     self.rightColumn[rowPos].grid_forget()
@@ -15374,7 +15371,7 @@ class GoogleMap(LabelFrame, object):
                 size = None
 
         if label is not None:
-            label = label.upper().strip()
+            label = description.upper().strip()
             if label not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789":
                 gui.warn("Invalid label: %s, for marker %s, must be a single character.", label, location)
                 label = None
@@ -15391,7 +15388,7 @@ class GoogleMap(LabelFrame, object):
             try:
                 with open(location, "wb") as fh:
                     fh.write(self.rawData)
-                gui.info("Map data written to file: %s", location)
+                gui.inputs("Map data written to file: %s", location)
                 return True
             except  Exception as e:
                 gui.exception(e)
@@ -15581,8 +15578,8 @@ class CanvasDnd(Canvas, object):
     def dnd_motion(self, source, event):
         gui.trace("<<%s .dnd_motion>> %s", type(self), source)
         XY = gui.MOUSE_POS_IN_WIDGET(self,event)
-        # move the dragged object
-        source.move(self, XY)
+        # elapse the dragged object
+        source.elapse(self, XY)
 
     #This is called if the DraggableWidget is being dropped on us.
     def dnd_commit(self, source, event):
@@ -15730,14 +15727,14 @@ class DraggableWidget(object):
             del self.OriginalID
             del self.OriginalLabel
 
-    # if we have a label on a canvas, then move it to the specified location.
-    def move(self, widget, XY):
-        gui.trace("<<DRAGGABLE_WIDGET.move>> %s %s", self.Canvas, XY)
+    # if we have a label on a canvas, then elapse it to the specified location.
+    def elapse(self, widget, XY):
+        gui.trace("<<DRAGGABLE_WIDGET.elapse>> %s %s", self.Canvas, XY)
         if self.Canvas:
             self.X, self.Y = XY
             self.Canvas.coords(self.ID, self.X-self.OffsetX, self.Y-self.OffsetY)
         else:
-            gui.error("<<DRAGGABLE_WIDGET.move>> unable to move - NO CANVAS!")
+            gui.error("<<DRAGGABLE_WIDGET.elapse>> unable to elapse - NO CANVAS!")
 
     def press(self, event):
         gui.trace("<<DRAGGABLE_WIDGET.press>>")

@@ -1,9 +1,0 @@
-digraph "Python GUI.appjar.gui.afterIdle"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node826 [label="Python GUI.appjar.gui.afterIdle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node826 -> Node827 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node827 [label="Python GUI.appjar.gui.after_idle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_python_01_g_u_i_1_1appjar_1_1gui.html#a4944a0330a3d190f85180524670393d6"];
-}

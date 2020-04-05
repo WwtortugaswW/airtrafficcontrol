@@ -6,9 +6,9 @@ Main module to run the application.
 """
 
 from lib.appJar.appjar import gui
-from src import app
+from src.app import App
 
 gui = gui()
 gui.setImageLocation("res")
 gui.setIcon("airplane.gif")
-app = app.App(gui)
+app = App(gui)

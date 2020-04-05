@@ -1253,7 +1253,7 @@ class Image:
         """
 
         self.rows = rows
-        self.info = info
+        self.inputs = info
 
     def save(self, file):
         """Save the image to *file*.  If *file* looks like an open file
@@ -1266,7 +1266,7 @@ class Image:
         again.
         """
 
-        w = Writer(**self.info)
+        w = Writer(**self.inputs)
 
         try:
             file.write
@@ -2506,7 +2506,6 @@ def write_pnm(file, width, height, pixels, meta):
 def color_triple(color):
     """
     Convert a command line colour value to a RGB triple of integers.
-    FIXME: Somewhere we need support for greyscale backgrounds etc.
     """
     if color.startswith('#') and len(color) == 4:
         return (int(color[1], 16),

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['dialog',['Dialog',['../classappjar_1_1_dialog.html',1,'appjar']]],
-  ['draggablewidget',['DraggableWidget',['../classappjar_1_1_draggable_widget.html',1,'appjar']]],
-  ['dualmeter',['DualMeter',['../classappjar_1_1_dual_meter.html',1,'appjar']]]
+  ['input',['Input',['../classapp_1_1_app_1_1_input.html',1,'app::App']]]
 ];

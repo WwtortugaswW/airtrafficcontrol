@@ -10,7 +10,7 @@ colours = ["red", "orange", "green", "pink", "purple"]
 
 # calculator function
 def calculator(key):
-    app.label("calculator", app.label("calculator") + key)
+    app.description("calculator", app.description("calculator") + key)
 
 # function to login the user
 def login(btn):
@@ -51,7 +51,7 @@ def meters():
 
 # call this to reset the drag'n drop label
 def resetDD(btn):
-    app.label("dd", "Drop here", bg="blue")
+    app.description("dd", "Drop here", bg="blue")
 
 # called when a drag starts - remember the label being dragged
 def drag(lbl):
@@ -61,7 +61,7 @@ def drag(lbl):
 # called when a drag stops - check the label being dropped on
 def drop(lbl):
     if lbl == "dd":
-        app.label("dd", app.getLabel(dragged), bg=colours[int(dragged[2])])
+        app.description("dd", app.getLabel(dragged), bg=colours[int(dragged[2])])
 
 # called by the toolbar buttons
 def toolbar(btn):
@@ -93,7 +93,7 @@ def scale(name):
         app.setSpinBox("TransparencySpin", trans, callFunction=False)
     elif name == "FontScale": app.setFont(size=app.getScale(name))
 
-def move(direction):
+def elapse(direction):
     if direction == ">":
         for item in app.getListBox("Animals"):
             app.addListItem("Sports",item)
@@ -195,9 +195,9 @@ with gui("ShowCase") as app:
     with app.tabbedFrame("Tabs"):
         with app.tab("Login", bg="slategrey", sticky="new"):
             with app.labelFrame("Login Form"):
-                app.label("username", "Username", sticky="ew")
+                app.description("username", "Username", sticky="ew")
                 app.entry("username", pos=('p', 1), focus=True)
-                app.label("password", "Password")
+                app.description("password", "Password")
                 app.entry("password", pos=('p', 1), secret=True)
                 app.buttons(["Submit", "Clear"], login, colspan=2)
                 app.link("help", helpMe, column=1, sticky="e")
@@ -205,18 +205,18 @@ with gui("ShowCase") as app:
         with app.tab("Lists", sticky="ew", expand="all", bg="orangered"):
             app.listbox("Animals", ["Zebra", "Sheep", "Lion", "Giraffe", "Snake", "Fish"], pos=(0, 0, 1, 4), bg="orange")
             app.listbox("Sports", ["Football", "Rugby", "Cricket", "Golf", "Cycling", "Netball", "Rounders"], pos=(0, 2, 1, 4), bg="orange")
-            app.button("<", move, pos=(0, 1))
-            app.button("<<", move, pos=(1, 1))
-            app.button(">>", move, pos=(2, 1))
-            app.button(">", move, pos=(3, 1))
+            app.button("<", elapse, pos=(0, 1))
+            app.button("<<", elapse, pos=(1, 1))
+            app.button(">>", elapse, pos=(2, 1))
+            app.button(">", elapse, pos=(3, 1))
             app.entry("animalsEntry", pos=(4, 0), bg="lightgrey", submit=add, default="-- add an item --")
             app.entry("sportsEntry", pos=(4, 2), bg="lightgrey", submit=add, default="-- add an item --")
 
         with app.tab("Properties"):
             with app.panedFrame("left"):
-                app.label("t", "Transparency")
-                app.label("t2", "Transparency")
-                app.label("f","Font")
+                app.description("t", "Transparency")
+                app.description("t2", "Transparency")
+                app.description("f","Font")
 
                 with app.panedFrame("right"):
                     app.slider("TransparencyScale", 100, change=scale, interval=25)
@@ -232,37 +232,37 @@ with gui("ShowCase") as app:
             with app.labelFrame("dnd", hideTitle=True, sticky="news", inPadding=(20,20)):
                 for i in range(5):
                     l = "DD"+str(i)
-                    app.label(l, l, pos=(0, i), tip=colours[i], bg=colours[i], fg="white", drag=[drag, drop])
+                    app.description(l, l, pos=(0, i), tip=colours[i], bg=colours[i], fg="white", drag=[drag, drop])
 
                 app.separator(1, 0, 5)
-                app.label("dd", "DROP HERE", pos=(2, 0, 5), bg="blue", fg="white", tip="Drag any of the colours here to make a change...")
+                app.description("dd", "DROP HERE", pos=(2, 0, 5), bg="blue", fg="white", tip="Drag any of the colours here to make a change...")
 
             with app.labelFrame("Reset", sticky="news"):
                 app.button("RESET", resetDD, 0,0)
-                app.label("RESET", "RESET", 0,1, bg="grey", submit=resetDD)
+                app.description("RESET", "RESET", 0,1, bg="grey", submit=resetDD)
                 app.link("RESET", resetDD, 0,2)
 
         with app.tab("Calculator", inPadding = (5,5)):
-            app.label("calculator", "", bg="grey", relief="sunken", anchor="e")
+            app.description("calculator", "", bg="grey", relief="sunken", anchor="e")
             buttons=[["1", "2", "3", "C"], ["4", "5", "6", "+"], ["7", "8", "9", "-"], ["0", "*", "/", "="]]
             app.buttons(buttons, calculator, width=3, height=3)
 
         with app.tab("Panes"):
             with app.panedFrame("a", sticky = "news"):
-                app.label("Edit Pane", relief="groove")
+                app.description("Edit Pane", relief="groove")
                 app.text("t1")
-                with app.panedFrameVertical("b"): app.label("Pane 2")
-                with app.panedFrame("c"): app.label("Pane 3")
-                with app.panedFrame("d"): app.label("Pane 4")
+                with app.panedFrameVertical("b"): app.description("Pane 2")
+                with app.panedFrame("c"): app.description("Pane 3")
+                with app.panedFrame("d"): app.description("Pane 4")
 
         with app.tab("Labels", sticky = "news"):
-            app.label("Yellow", rowspan=4, bg="yellow")
-            app.label("Red", pos=('p', 1, 2), bg="red")
-            app.label("Green", pos=('n', 1), bg="green")
-            app.label("Blue", pos=('p', 2, 1, 2), bg="blue")
-            app.label("Orange", pos=('n', 1), bg="orange")
-            app.label("Pink", pos=('n', 1, 2), bg="pink")
-            app.label("Purple", colspan=3, bg="purple")
+            app.description("Yellow", rowspan=4, bg="yellow")
+            app.description("Red", pos=('p', 1, 2), bg="red")
+            app.description("Green", pos=('n', 1), bg="green")
+            app.description("Blue", pos=('p', 2, 1, 2), bg="blue")
+            app.description("Orange", pos=('n', 1), bg="orange")
+            app.description("Pink", pos=('n', 1, 2), bg="pink")
+            app.description("Purple", colspan=3, bg="purple")
 
     with app.subWindow("Statistics", transient=True, bg="yellow", sticky="news", size="300x330"):
         values={"German":20, "French":10, "English":60, "Dutch": 5, "Belgium":3, "Danish":2}
@@ -290,9 +290,9 @@ with gui("ShowCase") as app:
         app.size = (300,350)
         app.location = (600,50)
         with app.pagedWindow("AddressBook"):
-            with app.page(): app.label("PP1")
-            with app.page(): app.label("PP2")
-            with app.page(): app.label("PP3")
+            with app.page(): app.description("PP1")
+            with app.page(): app.description("PP2")
+            with app.page(): app.description("PP3")
 
     # start logged out
     logout()
