@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['chart',['chart',['../namespacechart.html',1,'']]],
-  ['core',['core',['../namespacecore.html',1,'']]]
+  ['chart_44',['chart',['../namespacechart.html',1,'']]]
 ];

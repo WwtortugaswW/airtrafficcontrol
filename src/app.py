@@ -6,34 +6,33 @@ User interface.
 """
 
 from src import chart
-from dataclasses import field
-
-from src.core import *  #TODO: change core @UnusedWildImport
+from src.object import *
+from src.flight import *
 
 
 class App:
     """Class of the user interface."""
 
-    ##@var __appname
-    #Name of the self.application
+    # #@var __appname
+    # Name of the self.application
     __appname = "Air traffic control"
-    ##@var __refresh
-    #Period time in seconds to refresh the chart
+    # #@var __refresh
+    # Period time in seconds to refresh the chart
     __refresh = 1
-    ##@var separator
-    #Character to separate some strings for widget names
+    # #@var separator
+    # Character to separate some strings for widget names
     separator = "_"
-    ##@var app
-    #appJar GUI object
+    # #@var app
+    # appJar GUI object
     app = None
-    ##@var chart
-    #Chart object
+    # #@var chart
+    # Chart object
     chart = chart.Chart(app)
-    ##@var elements
-    #Sets of existing elements.
+    # #@var elements
+    # Sets of existing elements.
     elements = {Airport.__name__ : {}, Airplane.__name__ : {}, Flight.__name__ : {}}
-    ##@defgroup GUI widgets names
-    ##@{
+    # #@defgroup GUI widgets names
+    # #@{
     panel = "panel"
     panel_legend = "Legend"
     panel_elements = "Elements"
@@ -47,21 +46,21 @@ class App:
     panel_elements_select_selector_elementtype = "elementtype"
     panel_elements_select_selector_ident = "ident"
     panel_info = "Selection"
-    ##}
+    # #}
     
     class Field:
         """Field from an object of type Airport, Airplane or Flight"""
-        ##@var name
-        #Unique name which identifies the form field and the class attribute or method. 
+        # #@var name
+        # Unique name which identifies the form field and the class attribute or method. 
         name = None
-        ##@var description
-        #Field description which will show on the user interface.
+        # #@var description
+        # Field description which will show on the user interface.
         description = None
-        ##@var fieldtype
-        #Field type (text, number or class name). It corresponds to a list if the field is a list of values.
+        # #@var fieldtype
+        # Field type (text, number or class name). It corresponds to a list if the field is a list of values.
         fieldtype = "text"
-        ##@var factor
-        #If field type is number, factor multiplies the field value
+        # #@var factor
+        # If field type is number, factor multiplies the field value
         factor = None
         
         def __init__(self, name, description, fieldtype, factor=None):
@@ -79,8 +78,8 @@ class App:
         """Output field from an object of type Airport, Airplane or Flight"""
         pass
         
-    ##@var inputs
-    #Relevant fields to create a new object 
+    # #@var inputs
+    # Relevant fields to create a new object 
     inputs = {Airport.__name__: {
                 "ident":Input("ident", "Airport code", "text"),
                 "location":Input("location", "Location", [
@@ -99,8 +98,8 @@ class App:
                 "airplane":Input("airplane", Airplane.__name__, Airplane.__name__),
                 "origin":Input("origin", "Origin", Airport.__name__),
                 "destination":Input("destination", "Destination", Airport.__name__)}}
-    ##@var outputs
-    #Relevant outputs of the selected object to show on the selection panel
+    # #@var outputs
+    # Relevant outputs of the selected object to show on the selection panel
     outputs = {Airport.__name__: {
                 "ident":Output("ident", "Plate", "text"),
                 "location":Output("location", "Location", [
@@ -124,8 +123,8 @@ class App:
                 "calculateDistance":Output("distance", "Total distance [km]", "number", factor=1E3),
                 "calculateTime":Output("time", "Total time [h]", "number", factor=60 * 60),
                 "calculateETA":Output("eta", "Time to arrival [h]", "number", factor=60 * 60)}}
-    ##@var selection
-    #Current selected object.
+    # #@var selection
+    # Current selected object.
     selection = None
     
     def __init__(self, gui):
@@ -133,18 +132,20 @@ class App:
         self.app = gui 
         self.app.setTitle(self.__appname)
         self.app.setSize(800, 600)
-        #Panel
+        # Panel
         self.app.setSticky("nw")
         self.app.startFrame(title="panel", row=0, column=0)
-        #Panel - Legend
+        # Panel - Legend
         self.app.startLabelFrame(title=self.panel_legend, row=0, column=0)
         self.app.setSticky("new")
-        self.app.addLabel("Commercial")  #TODO: gets from Industry class
-        self.app.setLabelBg("Commercial", "Blue")
-        self.app.addLabel("Military")
-        self.app.setLabelBg("Military", "Red")
+        self.app.addLabel(self.panel_legend + self.separator + Object.Industry("commercial").value, text="Commercial")
+        self.app.setLabelBg(self.panel_legend + self.separator + Object.Industry("commercial").value, chart.Chart.legend[Object.Industry("commercial").value])
+        self.app.addLabel(self.panel_legend + self.separator + Object.Industry("military").value, text="Military")
+        self.app.setLabelBg(self.panel_legend + self.separator + Object.Industry("military").value, chart.Chart.legend[Object.Industry("military").value])
+        self.app.addLabel(self.panel_legend + self.separator + Object.Industry("passenger").value, text="Passenger")
+        self.app.setLabelBg(self.panel_legend + self.separator + Object.Industry("passenger").value, chart.Chart.legend[Object.Industry("passenger").value])
         self.app.stopLabelFrame()
-        #Panel - Elements
+        # Panel - Elements
         self.app.startLabelFrame(title=self.panel_elements, row=1, column=0)
         self.app.setSticky("new")
         row = 0
@@ -155,20 +156,20 @@ class App:
             row += 1
         self.app.addNamedButton("Select", self.panel_elements_select, self.loadSelector, column=2)
         self.app.stopLabelFrame()
-        #Panel - Actions
+        # Panel - Actions
         self.app.startLabelFrame(title=self.panel_actions, row=2, column=0)
         self.app.setSticky("new")
         self.app.stopLabelFrame()
-        #Panel - Info
+        # Panel - Info
         self.app.startLabelFrame(title=self.panel_info, row=3, column=0)
         self.app.setSticky("new")
         self.app.stopLabelFrame()
         self.app.stopFrame()
-        #Chart
+        # Chart
         self.chart = chart.Chart(self.app, 0, 1)
-        #self.app.registerEvent(self.updateChart) #TODO: enable
-        #self.app.setPollTime(self.__refresh)
-        #App launching
+        # self.app.registerEvent(self.updateChart) #TODO: enable
+        # self.app.setPollTime(self.__refresh)
+        # App launching
         self.select(None, None)
         self.updateElements()
         self.updateChart()
@@ -208,7 +209,7 @@ class App:
                         elif field.fieldtype == "number":
                             self.app.addNumericEntry(name, row=row, column=1)
                         elif field.fieldtype == "Industry":
-                            self.app.addOptionBox(name, ["commercial", "military"], row=row, column=1)  #TODO: change to Industry method
+                            self.app.addOptionBox(name, Object.Industry.options(), row=row, column=1)
                         elif field.fieldtype == Airport.__name__:
                             self.app.addOptionBox(name, self.elements[Airport.__name__], row=row, column=1)
                         elif field.fieldtype == Airplane.__name__:
@@ -264,7 +265,7 @@ class App:
                                     factor = field.factor
                                 properties[index] = factor * float(value)
                             elif field.fieldtype == "Industry":
-                                properties[index] = str(value)
+                                properties[index] = Object.Industry(str(value))
                             elif field.fieldtype == Airport.__name__:
                                 properties[index] = self.elements[Airport.__name__][str(value)]
                             elif field.fieldtype == Airplane.__name__:
@@ -338,6 +339,8 @@ class App:
                         if field.fieldtype == "number":
                             if field.factor != None:
                                 value = field.factor * value                            
+                        elif field.fieldtype == "Industry":
+                            value = value.value
                         elif (field.fieldtype == Airport.__name__) | (field.fieldtype == Airplane.__name__):
                             value = value.ident
                         # Value

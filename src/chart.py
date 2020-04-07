@@ -5,30 +5,32 @@
 Generator of the air traffic chart in the user interface.
 """
 
-from src.core import spherical2Cartesian  #TODO: change core
-from math import pi  #TODO: delete
+from src.spherical import conversor
+from src.object import Object
 
 
 class Chart:
     """Generator of the air traffic chart in the user interface."""
-    ##@var app
-    #appJar GUI object
+    # #@var app
+    # appJar GUI object
     app = None
-    ##@var legend
-    #Legend of element colors
-    legend = {"commercial" : "Blue", "military" : "Red"}
-    ##@var scale
-    #Chart scale vector [x, y] in meters/pixels
-    scale = [6.3781E6 * pi / 180, 6.3781E6 * pi / 180]  #TODO: change scale from GUI
-    ##@var focus
-    #Chart position coordinates [longitude, latitude] in degrees of the top left corner  
-    focus = [0.0, 0.0]  #TODO: change focus from GUI
-    ##@var __height
-    #Canvas GUI size [width, height] in pixels
+    # #@var legend
+    # Legend of element colors
+    legend = {Object.Industry("commercial").value : "Blue",
+              Object.Industry("military").value : "Red",
+              Object.Industry("passenger").value:"Green"}
+    # #@var scale
+    # Chart scale vector [x, y] in meters/pixels
+    scale = [1E5, 1E5]  # TODO: change scale from GUI
+    # #@var focus
+    # Chart position coordinates [longitude, latitude] in degrees of the top left corner  
+    focus = [0.0, 0.0]  # TODO: change focus from GUI
+    # #@var __height
+    # Canvas GUI size [width, height] in pixels
     __size = [600, 600]
-    ##@var __width
-    ##@var __diameter
-    #Element GUI diameter in pixels
+    # #@var __width
+    # #@var __diameter
+    # Element GUI diameter in pixels
     __diameter = 10
     
     def __init__(self, app, row=0, column=0):
@@ -54,31 +56,31 @@ class Chart:
         """
         if self.app is not None:
             if element.__class__.__name__ == "Airport":
-                #Spherical coordinates [longitude, latitude] in degrees
+                # Spherical coordinates [longitude, latitude] in degrees
                 spherical = element.location
-                #Cartesian coordinates [x, y] in meters
-                coordinates = spherical2Cartesian(element.location, self.focus)
-                #Position in pixels
+                # Cartesian coordinates [x, y] in meters
+                coordinates = conversor(element.location, self.focus)
+                # Position in pixels
                 position = [coordinates[0] / self.scale[0], coordinates[1] / self.scale[1]]
-                self.app.addCanvasRectangle("chart", position[0], position[1], self.__diameter, self.__diameter, fill=self.legend[element.industry])
+                self.app.addCanvasRectangle("chart", position[0], position[1], self.__diameter, self.__diameter, fill=self.legend[element.industry.value])
             elif element.__class__.__name__ == "Airplane":
-                #Spherical coordinates [longitude, latitude] in degrees
+                # Spherical coordinates [longitude, latitude] in degrees
                 if element.location.__class__.__name__ == "Airport":
                     spherical = element.location.location
                 else:
                     spherical = element.location
-                #Cartesian coordinates [x, y] in meters
-                coordinates = spherical2Cartesian(spherical, self.focus)
-                #Position in pixels
+                # Cartesian coordinates [x, y] in meters
+                coordinates = conversor(spherical, self.focus)
+                # Position in pixels
                 position = [coordinates[0] / self.scale[0], coordinates[1] / self.scale[1]]
-                self.app.addCanvasCircle("chart", position[0], position[1], self.__diameter, fill=self.legend[element.industry])
+                self.app.addCanvasCircle("chart", position[0], position[1], self.__diameter, fill=self.legend[element.industry.value])
             elif (element.__class__.__name__ == "Flight"):
-                #Spherical coordinates [longitude, latitude] in degrees
+                # Spherical coordinates [longitude, latitude] in degrees
                 spherical = [element.origin.location, element.destination.location]
-                #Cartesian coordinates [[x_origin, y_origin][x_destination, y_destination]] in meters
-                coordinates = [spherical2Cartesian(spherical[0], self.focus),
-                               spherical2Cartesian(spherical[1], self.focus)]
-                #Position in pixels
+                # Cartesian coordinates [[x_origin, y_origin][x_destination, y_destination]] in meters
+                coordinates = [conversor(spherical[0], self.focus),
+                               conversor(spherical[1], self.focus)]
+                # Position in pixels
                 position = [[coordinates[0][0] / self.scale[0], coordinates[0][1] / self.scale[1]],
                             [coordinates[1][0] / self.scale[0], coordinates[1][1] / self.scale[1]]]
                 self.app.addCanvasLine("chart", position[0][0], position[0][1], position[1][0], position[1][1])
